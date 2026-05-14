@@ -101,13 +101,14 @@ class MetricasEditoriales:
 @dataclass
 class RiesgoDetectado:
     """Registro de un riesgo identificado por los guardianes."""
-    id: str
-    guardian: str                    # "guardian_alucinaciones", etc.
-    tipo: str                        # "alucinacion", "sobreedicion", "sesgo", "voz"
-    hallazgo_id: Optional[str] = None
-    descripcion: str = ""
+    tipo: str                        # "alucinacion", "sobreedicion", "sesgo_comercial", "voz_autor"
+    activado: bool = False           # True si el guardián disparó la alerta
     severidad: int = 1               # 1 (baja) a 5 (crítica)
+    descripcion: str = ""
+    hallazgos_afectados: List[str] = field(default_factory=list)
     recomendacion: str = ""          # Qué hacer para mitigar
+    id: str = ""                     # Opcional: ID del riesgo para trazabilidad
+    guardian: str = ""               # Opcional: nombre del guardián
     timestamp: str = field(default_factory=lambda: datetime.now().isoformat())
 
     def to_dict(self) -> dict:

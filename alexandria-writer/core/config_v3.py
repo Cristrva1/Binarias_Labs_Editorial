@@ -66,16 +66,16 @@ class ProyectoPaths:
         return self.proyecto_dir / "m4_editor_jefe"
 
     @property
-    def m5_riesgos(self) -> Path:
-        return self.proyecto_dir / "m5_riesgos"
+    def m5_control_riesgo(self) -> Path:
+        return self.proyecto_dir / "m5_control_riesgo"
 
     @property
     def m6_benchmarking(self) -> Path:
         return self.proyecto_dir / "m6_benchmarking"
 
     @property
-    def m7_entregas(self) -> Path:
-        return self.proyecto_dir / "m7_entregas"
+    def m7_output_profesional(self) -> Path:
+        return self.proyecto_dir / "m7_output_profesional"
 
     # --- Archivos clave ---
 
@@ -120,11 +120,11 @@ class ProyectoPaths:
     def backlog_path(self) -> Path:
         return self.m4_editor_jefe / "backlog_priorizado.json"
 
-    def riesgos_path(self) -> Path:
-        return self.m5_riesgos / "riesgos_detectados.json"
+    def riesgos_detectados_path(self) -> Path:
+        return self.m5_control_riesgo / "riesgos_detectados.json"
 
-    def bloqueos_path(self) -> Path:
-        return self.m5_riesgos / "recomendaciones_bloqueadas.json"
+    def recomendaciones_bloqueadas_path(self) -> Path:
+        return self.m5_control_riesgo / "recomendaciones_bloqueadas.json"
 
     def benchmark_path(self) -> Path:
         return self.m6_benchmarking / "benchmark.json"

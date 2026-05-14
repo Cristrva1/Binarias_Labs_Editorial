@@ -40,10 +40,13 @@ sys.path.insert(0, str(HERE))
 
 from llm_router import LLMRouter
 
+from agente_auditor_de_continuidad import AuditorDeContinuidad
+from agente_custodio_doctrinal import CustodioDoctrinal
 from agente_director_editorial import DirectorEditorial
 from agente_editor_de_linea import EditorDeLinea
 from agente_estructuralista import Estructuralista
 from agente_lector_de_voz import LectorDeVoz
+from agente_lector_ideal_simulado import LectorIdealSimulado
 from base_agente import SugerenciaEditorial
 from manuscrito import Manuscrito
 from voz_autor import VozAutor
@@ -65,7 +68,7 @@ class PipelineEditorial:
         self.libro_id = libro_id
         self.pdf_nombre = pdf_nombre
         self.bloques_a_correr = bloques_a_correr
-        self.oficios = oficios or ["estructuralista", "editor_de_linea"]
+        self.oficios = oficios or ["estructuralista", "editor_de_linea", "custodio", "lector_ideal", "auditor"]
         self.t0 = time.time()
 
         # Rutas
@@ -176,6 +179,33 @@ class PipelineEditorial:
                 print(f"{len(sugs)} sugerencia(s) en {time.time()-t:.1f}s")
                 todas_sugerencias.extend(sugs)
 
+        # M2b — Lector Ideal Simulado (lectura completa, mapa emocional)
+        if "lector_ideal" in self.oficios:
+            print("\n[M2b] Lector Ideal Simulado — mapa emocional del manuscrito…")
+            lector_ideal = LectorIdealSimulado(self.voz, self.router)
+            mapa_emocional = lector_ideal.analizar_manuscrito(manuscrito)
+            (self.iter_dir / "mapa_emocional.md").write_text(
+                mapa_emocional, encoding="utf-8"
+            )
+            print(f"  → {self.iter_dir / 'mapa_emocional.md'}")
+
+        # M2c — Auditor de Continuidad (revisión global, entra al final de los oficios)
+        if "auditor" in self.oficios:
+            print("\n[M2c] Auditor de Continuidad — verificando coherencia del libro…")
+            auditor = AuditorDeContinuidad(self.voz, self.router)
+            obs_auditoria = auditor.analizar_manuscrito(
+                manuscrito,
+                lectura_inicial=lectura_inicial,
+                sugerencias_previas=todas_sugerencias,
+            )
+            print(f"  {len(obs_auditoria)} observación(es) de continuidad.")
+            if obs_auditoria:
+                auditor.guardar_observaciones_json(
+                    obs_auditoria, self.iter_dir / "continuidad_observaciones.json"
+                )
+                print(f"  → {self.iter_dir / 'continuidad_observaciones.json'}")
+                todas_sugerencias.extend(obs_auditoria)
+
         # M3 — Lector de Voz (filtro)
         print("\n[M3] Lector de Voz — filtrando sugerencias…")
         lector_de_voz = LectorDeVoz(self.voz)
@@ -245,6 +275,8 @@ class PipelineEditorial:
             "lectura_inicial.md",
             "dictamen_editorial.md",
             "cambios_propuestos.json",
+            "mapa_emocional.md",
+            "continuidad_observaciones.json",
             "bloqueos_voz.json",
             "decisiones_autor.json",
             "log_iteracion.json",
@@ -258,21 +290,26 @@ class PipelineEditorial:
     # ─── Instanciación de oficios ─────────────────────────────────────
 
     def _instanciar_oficios(self) -> dict:
-        # TODO: implementar los tres oficios pendientes y registrarlos aquí:
-        #   "lector_ideal"    → AgenteIdentidad definida en agents/editorial/04_lector_ideal_simulado.md
-        #   "custodio"        → AgenteIdentidad definida en agents/editorial/05_custodio_doctrinal.md
-        #                        (solo se activa cuando voz.habla_de_fe() == True)
-        #   "auditor"         → AgenteIdentidad definida en agents/editorial/06_auditor_de_continuidad.md
-        #                        (entra al final de cada iteración, después de los otros oficios)
         disponibles = {
             "estructuralista": Estructuralista,
             "editor_de_linea": EditorDeLinea,
         }
         instancias: dict[str, object] = {}
         for nombre in self.oficios:
+            if nombre in ("lector_ideal", "auditor"):
+                continue
+            if nombre == "custodio":
+                if CustodioDoctrinal.es_activo(self.voz):
+                    instancias[nombre] = CustodioDoctrinal(self.voz, self.router)
+                else:
+                    print(
+                        "  [custodio] El libro no declara habla_de_Dios: true. "
+                        "Custodio Doctrinal no entra en esta iteración."
+                    )
+                continue
             cls = disponibles.get(nombre)
             if cls is None:
-                print(f"  [aviso] Oficio '{nombre}' aún no implementado en código; se omite.")
+                print(f"  [aviso] Oficio '{nombre}' no reconocido; se omite.")
                 continue
             instancias[nombre] = cls(self.voz, self.router)
         return instancias

@@ -306,52 +306,55 @@ Toda salida del sistema debe usar este vocabulario unificado:
 ## 8. Roadmap de Implementación
 
 ### Fase 1: Evidencia y Trazabilidad (semanas 1–2)
-- [ ] Refactorizar Equipo 2 para que cada agente emita `hallazgos.json` en lugar de texto libre.
-- [ ] Crear `evidencia_store.jsonl` y `trazabilidad_graph.md`.
-- [ ] Agregar `chunk_ref` obligatorio a todo hallazgo.
-- [ ] Validar que ≥ 90% de hallazgos incluyan `cita_textual`.
+- [ ] Refactorizar Equipo 2 (v2) para que emita `hallazgos.json` en lugar de texto libre.
+- [x] Crear `evidencia_store.jsonl` y `trazabilidad_graph.md`. → `m3_evidencia.py`
+- [x] Agregar `chunk_ref` obligatorio a todo hallazgo. → `schemas_v3.py`
+- [x] Validar que ≥ 90% de hallazgos incluyan `cita_textual`. → `m3_evidencia.py` (alerta si < 90%)
 
 ### Fase 2: Métricas de Calidad Editorial (semanas 3–4)
-- [ ] Implementar `metricas_editoriales.json` con las 7 métricas de manuscrito.
-- [ ] Crear `densidad_problemas_por_capitulo.md`.
-- [ ] Implementar score de `estabilidad_de_voz` y `continuidad_tematica`.
-- [ ] Añadir `probabilidad_de_ejecucion` del sistema.
+- [x] Implementar `metricas_editoriales.json` con las 7 métricas de manuscrito. → `m1_diagnostico.py`
+- [x] Crear `densidad_problemas_por_capitulo.md`. → `m1_diagnostico.py`
+- [x] Implementar score de `estabilidad_de_voz` y `continuidad_tematica`. → `m1_diagnostico.py`
+- [x] Añadir `probabilidad_de_ejecucion` del sistema. → campo en `MetricasEditoriales`
 
 ### Fase 3: Editor Jefe y Arbitraje (semanas 5–7)
-- [ ] Diseñar agente `editor_jefe` con prompts de arbitraje explícito.
-- [ ] Implementar detector de duplicados semánticos (embeddings + clustering).
-- [ ] Crear modo "Editor Jefe Resumen": `TOP10_PROBLEMAS`, `TOP10_RETORNO`, `RIESGO_PRINCIPAL`.
-- [ ] Implementar `conflict_log.json` y registro de decisiones.
+- [x] Diseñar agente `editor_jefe` con prompts de arbitraje explícito. → `m4_editor_jefe.py`
+- [x] Implementar detector de duplicados semánticos. → `m3_evidencia.py` (Jaccard, sin embeddings)
+- [x] Crear modo “Editor Jefe Resumen”: `TOP10_PROBLEMAS`, `TOP10_RETORNO`, `RIESGO_PRINCIPAL`. → `m4_editor_jefe.py`
+- [x] Implementar `conflict_log.json` y registro de decisiones. → `m3_evidencia.py` + `m4_editor_jefe.py`
 
 ### Fase 4: Separar Diagnóstico de Estrategia (semanas 8–9)
-- [ ] Aislar Equipo 3 (mercado) para que solo lea el diagnóstico, no el texto directamente.
-- [ ] Implementar `guardian_sesgo_comercial` que valide coherencia diagnóstico–estrategia.
-- [ ] Crear `alertas_riesgo.md` en salida del Equipo 3.
+- [x] Aislar M2 (mercado) para que solo lea el diagnóstico, no el texto directamente. → `m2_estrategia.py`
+- [x] Implementar `guardian_sesgo_comercial`. → `m5_control_riesgo.py`
+- [x] Crear `alertas_riesgo.md` en salida de M2. → `m2_estrategia.py`
 
 ### Fase 5: Control de Riesgo (semanas 10–11)
-- [ ] Implementar `guardian_alucinaciones` (verificación de citas).
-- [ ] Implementar `guardian_voz_autor` (comparación contra `contexto_autor.yaml`).
-- [ ] Implementar `guardian_sobreedición` (umbral de densidad de problemas).
-- [ ] Crear `recomendaciones_bloqueadas.json` con razones.
+- [x] Implementar `guardian_alucinaciones`. → `m5_control_riesgo.py`
+- [x] Implementar `guardian_voz_autor`. → `m5_control_riesgo.py`
+- [x] Implementar `guardian_sobreedición`. → `m5_control_riesgo.py`
+- [x] Crear `recomendaciones_bloqueadas.json` con razones. → `m5_control_riesgo.py`
 
 ### Fase 6: Profesionalizar Output (semanas 12–13)
-- [ ] Diseñar plantillas Jinja2 para: memo de adquisición, diagnóstico de desarrollo, plan de intervención, estrategia de publicación.
-- [ ] Separar datos (JSON) de presentación (Markdown/Word).
-- [ ] Implementar `brief_final_ejecutivo.md` de 1 página.
+- [ ] Diseñar plantillas Jinja2. (pendiente — se usa generación LLM directa, sin Jinja2)
+- [x] Separar datos (JSON) de presentación (Markdown). → todos los módulos producen JSON + .md
+- [x] Implementar `brief_final_ejecutivo.md` de 1 página. → `m7_output_profesional.py`
 
 ### Fase 7: Benchmarking (semanas 14–15)
-- [ ] Crear base de datos de comparables por género (inicialmente manual, luego semiautomática).
-- [ ] Implementar cálculo de percentiles: ritmo, claridad, densidad de problemas.
-- [ ] Generar `posicionamiento_relativo.md`.
+- [x] Crear base de datos de comparables por género (seed). → `data/comparables/autoayuda_espiritual.json`
+- [x] Implementar cálculo de percentiles con umbrales de referencia. → `m6_benchmarking.py`
+- [x] Generar `posicionamiento_relativo.md`. → `m6_benchmarking.py`
 
 ### Fase 8: Dashboard e Interfaz Humana (semanas 16–18)
-- [ ] Crear dashboard HTML estático (o Streamlit) para navegar:
+- [x] Crear dashboard Streamlit para navegar:
   - Hallazgos por capítulo con citas.
   - Backlog priorizado.
   - Estado de decisiones del autor.
   - Métricas globales.
-- [ ] Permitir al autor marcar hallazgos como: aceptado / rechazado / modificado.
-- [ ] Exportar plan de edición actualizado según decisiones del autor.
+  - Entregables de M7 + iteraciones del pipeline editorial.
+  → `alexandria-writer/dashboard.py`
+- [x] Permitir al autor marcar hallazgos como: aceptado / rechazado / modificado. → dashboard.py
+- [x] Exportar decisiones del autor como JSON descargable. → dashboard.py
+- [x] Exportar plan de edición actualizado según decisiones (Markdown + Word). → `core/exportar_plan.py`
 
 ---
 
@@ -406,13 +409,13 @@ alexandria-writer/
 │           │       │   ├── dictamen_editor_jefe.md
 │           │       │   ├── backlog_priorizado.json
 │           │       │   └── resumen_ejecutivo_editorial.md
-│           │       ├── m5_riesgos/
+│           │       ├── m5_control_riesgo/
 │           │       │   ├── riesgos_detectados.json
 │           │       │   └── recomendaciones_bloqueadas.json
 │           │       ├── m6_benchmarking/
 │           │       │   ├── benchmark.json
 │           │       │   └── posicionamiento_relativo.md
-│           │       └── m7_entregas/
+│           │       └── m7_output_profesional/
 │           │           ├── memo_adquisicion.md
 │           │           ├── diagnostico_desarrollo.md
 │           │           ├── plan_intervencion.md
@@ -430,9 +433,9 @@ alexandria-writer/
 - Ciclo de análisis: `docs/Autores/<autor>/Proyectos/<id_libro>/`
 - Historial del autor: `docs/Autores/<autor>/Historial/` (usado por Módulo 6)
 
-:**Ejemplo activo (autor piloto):**
-:- `docs/Autores/<autor>/Libros/<libro>.pdf`
-:- `docs/Autores/<autor>/Proyectos/<id_libro>/...`
+**Ejemplo activo (autor piloto):**
+- `docs/Autores/<autor>/Libros/<libro>.pdf`
+- `docs/Autores/<autor>/Proyectos/<id_libro>/...`
 
 ---
 

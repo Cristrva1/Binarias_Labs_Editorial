@@ -1,0 +1,87 @@
+{
+  "genero": "autoayuda_espiritual",
+  "descripcion": "Libros de desarrollo espiritual, fe personal y transformación interior. Voz íntima y directa. No catequéticos.",
+  "nota_metodologica": "Las métricas_referencia son estimaciones editoriales basadas en análisis de estilo y recepción del lector, no métricas del sistema Alexandria.",
+  "comparables": [
+    {
+      "titulo": "El alquimista",
+      "autor": "Paulo Coelho",
+      "editorial": "Planeta",
+      "año": 1988,
+      "paginas": 208,
+      "palabras_aprox": 42000,
+      "idioma": "es",
+      "subgenero": "fábula espiritual",
+      "metricas_referencia": {
+        "gravedad_editorial_estimada": 1.2,
+        "estabilidad_voz_estimada": 0.95,
+        "densidad_problemas_estimada": 1.5
+      },
+      "notas": "Voz narrativa consistente y limpia. Metáfora sostenida durante todo el libro. Referencia de cohesión temática."
+    },
+    {
+      "titulo": "El poder del ahora",
+      "autor": "Eckhart Tolle",
+      "editorial": "New World Library",
+      "año": 1997,
+      "paginas": 236,
+      "palabras_aprox": 60000,
+      "idioma": "es",
+      "subgenero": "espiritualidad contemporánea",
+      "metricas_referencia": {
+        "gravedad_editorial_estimada": 1.6,
+        "estabilidad_voz_estimada": 0.88,
+        "densidad_problemas_estimada": 2.0
+      },
+      "notas": "Voz didáctica y contemplativa. Algunos capítulos con densidad conceptual alta. Ritmo lento pero sostenido."
+    },
+    {
+      "titulo": "Un año con Rumi",
+      "autor": "Coleman Barks",
+      "editorial": "HarperOne",
+      "año": 2006,
+      "paginas": 448,
+      "palabras_aprox": 80000,
+      "idioma": "en",
+      "subgenero": "espiritualidad + poesía",
+      "metricas_referencia": {
+        "gravedad_editorial_estimada": 1.1,
+        "estabilidad_voz_estimada": 0.92,
+        "densidad_problemas_estimada": 1.2
+      },
+      "notas": "Alta consistencia de voz. Fragmentado por naturaleza (antología). Referencia para proyectos con estructura no lineal."
+    },
+    {
+      "titulo": "Las cuatro acuerdos",
+      "autor": "Miguel Ruiz",
+      "editorial": "Amber-Allen",
+      "año": 1997,
+      "paginas": 160,
+      "palabras_aprox": 35000,
+      "idioma": "es",
+      "subgenero": "sabiduría tolteca / autoayuda espiritual",
+      "metricas_referencia": {
+        "gravedad_editorial_estimada": 1.4,
+        "estabilidad_voz_estimada": 0.90,
+        "densidad_problemas_estimada": 1.8
+      },
+      "notas": "Estructura muy clara (4 principios). Voz docente. Buen referente para libros con tesis central explícita."
+    },
+    {
+      "titulo": "La noche oscura del alma",
+      "autor": "San Juan de la Cruz",
+      "editorial": "Varias",
+      "año": 1577,
+      "paginas": 200,
+      "palabras_aprox": 45000,
+      "idioma": "es",
+      "subgenero": "mística cristiana",
+      "metricas_referencia": {
+        "gravedad_editorial_estimada": 2.5,
+        "estabilidad_voz_estimada": 0.95,
+        "densidad_problemas_estimada": 3.5
+      },
+      "notas": "Altísima estabilidad de voz en el original. Densidad conceptual alta por naturaleza del género. No comparable directamente con prosa contemporánea."
+    }
+  ]
+}

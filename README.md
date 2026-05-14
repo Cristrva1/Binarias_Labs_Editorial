@@ -61,7 +61,7 @@
 
 Una tarde, Arturo me mostró su libro. Hablamos de voz, de estructura, de lo que cuesta dar forma al caos. Y pensé: *una editorial debería hacer esto por cualquiera*.
 
-La única editorial que había visto por dentro era el Daily Bugle. *Poom*. Spider-Man.
+La única editorial que había visto por dentro era de Spider Man.
 
 Así que lo hice realidad: Arturo como editor en jefe, yo construyendo el taller, y siete agentes con oficio propio — no prompts genéricos, sino personas con tarea, criterio y opinión. Un estructuralista que detecta donde la tesis se desvanece. Un lector ideal que siente antes de juzgar. Un director que dictamina una sola vez por iteración.
 
@@ -91,7 +91,7 @@ El autor **no necesita saber de marketing ni de edición**. El sistema genera to
 | Versión | Enfoque | Estado |
 |---------|---------|--------|
 | **v2 — Pipeline de 4 Equipos** | Análisis integral: inteligencia, edición, mercado y refinamiento. | Estable, ejecutado completamente en piloto. |
-| **v3 — Casa Alexandria** | Modelo editorial humanista con 7 oficios, dictamen único por iteración y protección absoluta de la voz del autor. | En evolución activa. Ver [`MANIFIESTO_EDITORIAL.md`](MANIFIESTO_EDITORIAL.md). |
+| **v3 — Casa Alexandria** | Modelo editorial humanista con 7 oficios, dictamen único por iteración y protección absoluta de la voz del autor. | **Completo** — 8 módulos M0→M7 + dashboard + exportación. Ver [`PLAN_ARQUITECTURA_V3.md`](PLAN_ARQUITECTURA_V3.md). |
 
 <p align="center">
   <svg width="100%" height="24" viewBox="0 0 800 24" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
@@ -163,27 +163,43 @@ projects/
 
 ### 2. Ejecuta el pipeline
 
+**Pipeline editorial (v3 — Casa Alexandria):**
+```bash
+# Flujo completo M0→M7: ingesta, diagnóstico, estrategia, arbitraje, riesgo, benchmark, entregables
+python alexandria-writer/core/pipeline_maestro_v3.py --autor <AUTOR> --libro <ID_LIBRO>
+
+# Solo un módulo
+python alexandria-writer/core/pipeline_maestro_v3.py --autor <AUTOR> --libro <ID_LIBRO> --solo m4
+
+# Pipeline de oficios (dictamen por iteración)
+python alexandria-writer/core/editorial/pipeline_editorial.py --autor <AUTOR> --libro <ID_LIBRO>
+```
+
+**Pipeline de análisis masivo (v2 — estable):**
 ```bash
 # Pipeline completo v2: E1 → E2 → E3 → E4
 python alexandria-writer/core/pipeline_maestro.py --modo completo
-
-# Solo un equipo específico
-python alexandria-writer/core/pipeline_maestro.py --equipo 2 --modo completo
-
-# Continuar saltando equipos completados
-python alexandria-writer/core/pipeline_maestro.py --modo completo --skip-equipo 1 --skip-equipo 2
 ```
 
-**Modos del Equipo 2:**
-- `completo` — Análisis de todas las dimensiones
-- `transiciones` — Fluidez entre capítulos y cohesión narrativa
-- `tecnico` — Precisión teológica, bíblica o temática
-- `marketing` — Potencial comercial, posicionamiento y hook
+### 3. Dashboard visual (v3)
 
-### 3. Revisa los entregables
+```bash
+pip install streamlit
+streamlit run alexandria-writer/dashboard.py
+```
 
-Empieza por estos 3 documentos:
+Muestra métricas, hallazgos con citas, backlog priorizado, riesgos, benchmark y permite marcar decisiones del autor.
 
+### 4. Revisa los entregables
+
+**v3 — documentos en `m7_output_profesional/`:**
+1. `brief_final_ejecutivo.md` — 1 página: estado del libro, fortaleza, problema, siguiente paso
+2. `diagnostico_desarrollo.md` — Estado real del libro dirigido al autor
+3. `plan_intervencion.md` — Fases, acciones, secuencia
+4. `estrategia_publicacion.md` — Canal, cronograma, pre-lanzamiento
+5. `memo_adquisicion.md` — Para editores externos o agentes
+
+**v2 — documentos en `equipo*/`:**
 1. `equipo4/04_BRIEF_FINAL_EJECUTIVO.md` — Resumen ejecutivo de 1 página
 2. `equipo2/03_TOP30_PRIORITARIO.md` — Los 30 cambios más importantes
 3. `equipo4/01_PLAN_EDICION_CALENDARIO.md` — Qué hacer semana a semana
@@ -199,28 +215,50 @@ Binarias_Labs_Editorial/
 ├── alexandria-writer/
 │   ├── core/                          # Motor del pipeline
 │   │   ├── llm_router.py              # Router multi-API con failover
-│   │   ├── pipeline_maestro.py        # Orquestador v2
-│   │   ├── pipeline_maestro_v3.py     # Orquestador v3
-│   │   ├── pipeline_equipo_1_inteligencia.py
-│   │   ├── pipeline_equipo_2_analisis_v2.py
-│   │   ├── pipeline_equipo_3_estrategia_v2.py
-│   │   ├── pipeline_equipo_4_refinamiento.py
-│   │   └── schemas_v3.py              # Esquemas de datos
+│   │   ├── config_v3.py               # Rutas y configuración v3
+│   │   ├── schemas_v3.py              # Esquemas de datos compartidos
+│   │   ├── pipeline_maestro.py        # Orquestador v2 (estable)
+│   │   ├── pipeline_maestro_v3.py     # Orquestador v3 (M0→M7)
+│   │   ├── m0_ingesta.py              # Extracción PDF + chunking
+│   │   ├── m1_diagnostico.py          # 5 agentes de diagnóstico
+│   │   ├── m2_estrategia.py           # Estrategia de mercado
+│   │   ├── m3_evidencia.py            # Libro mayor + trazabilidad
+│   │   ├── m4_editor_jefe.py          # Arbitraje central
+│   │   ├── m5_control_riesgo.py       # 4 guardianes de calidad
+│   │   ├── m6_benchmarking.py         # Percentil y comparativa
+│   │   ├── m7_output_profesional.py   # Entregables finales
+│   │   ├── editorial/                 # Casa Alexandria (pipeline editorial)
+│   │   │   ├── pipeline_editorial.py  # Orquestador de oficios
+│   │   │   ├── base_agente.py
+│   │   │   ├── agente_director_editorial.py
+│   │   │   ├── agente_estructuralista.py
+│   │   │   ├── agente_editor_de_linea.py
+│   │   │   ├── agente_lector_de_voz.py
+│   │   │   ├── agente_lector_ideal_simulado.py
+│   │   │   ├── agente_custodio_doctrinal.py
+│   │   │   └── agente_auditor_de_continuidad.py
+│   │   ├── pipeline_equipo_1_inteligencia.py  # v2 (archivado)
+│   │   ├── pipeline_equipo_2_analisis_v2.py   # v2 (archivado)
+│   │   ├── pipeline_equipo_3_estrategia_v2.py # v2 (archivado)
+│   │   └── pipeline_equipo_4_refinamiento.py  # v2 (archivado)
 │   ├── agents/
-│   │   ├── editorial/                 # 7 oficios de la Casa Alexandria (v3)
+│   │   ├── editorial/                 # Personas Markdown de los 7 oficios
 │   │   └── _legacy_en/                # Agentes en inglés, archivados
 │   ├── skills/
 │   │   └── base_editorial.md          # Código de comportamiento
-│   ├── projects/
-│   │   └── <id_libro>/                # Proyecto piloto activo
-│   └── scripts/                       # Utilidades adicionales
+│   ├── dashboard.py               # Dashboard Streamlit (métricas, hallazgos, decisiones)
+│   └── projects/                      # Proyectos piloto
+├── data/
+│   └── comparables/               # Libros de referencia por género para benchmarking
 ├── docs/
 │   └── Autores/<Autor>/Proyectos/<Libro>/
 │       ├── voz_autor.yaml             # Ley vocal del autor
 │       ├── cuestionario.md            # Respuestas del autor
 │       └── iteracion_01/
 │           ├── dictamen_editorial.md
+│           ├── mapa_emocional.md
 │           ├── cambios_propuestos.json
+│           ├── continuidad_observaciones.json
 │           ├── decisiones_autor.json
 │           └── bloqueos_voz.json
 └── README.md
@@ -280,20 +318,22 @@ Binarias_Labs_Editorial/
 
 | Campo | Valor |
 |-------|-------|
-| **Título** | *<Título del Libro Piloto>* |
-| **Autor** | *<Nombre del Autor Piloto>* |
+| **Título** | *(proyecto activo — datos privados)* |
+| **Autor** | *(proyecto activo — datos privados)* |
 | **Género** | Autoayuda espiritual / Desarrollo personal |
 | **Páginas** | ~90 |
-| **Pipeline v2** | Ejecutado completamente |
-| **Equipos** | 4/4 completados |
-| **Documentos generados** | 26 + 1 JSON |
+| **Pipeline v2** | Ejecutado completamente (4/4 equipos) |
+| **Pipeline v3 — módulos** | 8/8 implementados (M0→M7) |
+| **Pipeline v3 — oficios** | 7/7 implementados (Casa Alexandria) |
+| **Documentos generados** | 26 + 1 JSON (v2) · 5 entregables finales (v3) |
 
 ---
 
 ## Documentos clave
 
 - [`MANIFIESTO_EDITORIAL.md`](MANIFIESTO_EDITORIAL.md) — Filosofía y principios de la Casa Alexandria (v3)
-- [`PLAN_ARQUITECTURA_V3.md`](PLAN_ARQUITECTURA_V3.md) — Especificación técnica del sistema v3
+- [`PLAN_ARQUITECTURA_V3.md`](PLAN_ARQUITECTURA_V3.md) — Especificación técnica y roadmap del sistema v3
+- [`alexandria-writer/INSTRUCCIONES_PARA_OTRO_MODELO_IA.md`](alexandria-writer/INSTRUCCIONES_PARA_OTRO_MODELO_IA.md) — Guía de ejecución para otro modelo de IA
 - [`alexandria-writer/skills/base_editorial.md`](alexandria-writer/skills/base_editorial.md) — Código de comportamiento de los agentes
 
 ---
@@ -315,5 +355,5 @@ Binarias_Labs_Editorial/
 </p>
 
 <p align="center">
-  <strong>Binarias_Labs_Editorial</strong> · Alexandria Writer · v2/v3 · 2026
+  <strong>Binarias_Labs_Editorial</strong> · Alexandria Writer · v3 completo · 2026-05-14
 </p>
