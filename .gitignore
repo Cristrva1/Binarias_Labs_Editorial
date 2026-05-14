@@ -30,10 +30,39 @@ projects/tsbn/equipo4/
 # Catálogo local
 Catalogo/
 
-# Información privada de autores — Arturo Ledezma
+# ═══════════════════════════════════════════════════════════════
+# INFORMACIÓN PRIVADA DE AUTORES — Arturo Ledezma
+# Todo lo relacionado con este autor y su obra está protegido.
+# ═══════════════════════════════════════════════════════════════
+
+# Carpeta del autor y todo su contenido
 **/Arturo_Ledezma/
 **/Arturo_Ledezma/**
 *respuestas_autor*.txt
+
+# Proyecto TSBN / Todas Son Buenas Noticias (carpetas y archivos)
+projects/tsbn/
+**/tsbn/
+**/*tsbn*
+**/TSBN*
+
+# Archivos de contexto y análisis específicos del libro
+**/tsbn-context.md
+**/tsbn_analyzer.py
+**/tsbn_analisis_multidimensional.*
+**/tsbn_memory_graph.*
+**/tsbn-edition-instructions.md
+**/TSBN_EDITADO_COMPLETO.txt
+
+# Scripts con rutas locales o lógica específica del proyecto piloto
+**/setup-structure.ps1
+**/editar_tsbn.ps1
+**/extract_tsbn_context.py
+**/orquestacion_editorial_10_iteraciones.py
+
+# Datos de memoria del sistema (contienen contexto del libro)
+memory/
+**/memory/
 
 # Caché del sistema
 *.DS_Store
