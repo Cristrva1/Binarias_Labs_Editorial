@@ -106,8 +106,8 @@ class Manuscrito:
         # Estrategia de segmentación, en este orden:
         # 1) Buscar el índice del libro y mapear cada capítulo a su rango
         #    real de páginas. Esta es la única segmentación confiable.
-        # 2) Heurística de líneas en mayúsculas (ruidosa con libros como TSBN
-        #    que usan mayúsculas como recurso poético).
+        # 2) Heurística de líneas en mayúsculas (ruidosa con libros que
+        #    usan mayúsculas como recurso poético).
         # 3) Respaldo: chunks de N páginas.
         bloques_via_toc = self._detectar_capitulos_via_toc(paginas)
         if bloques_via_toc:
@@ -260,7 +260,7 @@ class Manuscrito:
     ) -> list[str]:
         """Saca, en orden, los títulos de capítulo del bloque TOC.
 
-        Convención observada en TSBN: cada par del índice es
+        Convención observada en el libro piloto: cada par del índice es
             <Título del capítulo>
             <Capítulo N | Introducción | …>
         Aceptamos esa forma y también la inversa (Capítulo N en línea previa).
@@ -331,8 +331,7 @@ class Manuscrito:
             primeras_6 = " ".join(titulo_norm.split()[:6])
             if len(primeras_6) >= 18 and primeras_6 in texto_norm:
                 return pagina
-        # TODO: en TSBN, los capítulos 30 ("Validando que TODAS sean BUENAS NOTICIAS")
-        # y 31 ("Cuando todo se ilumina y dios te recibe") no se encuentran porque el
+        # TODO: algunos capítulos con títulos largos no se encuentran porque el
         # PDF los renderiza con saltos de línea en el título. Posible fix: intentar
         # la búsqueda con las primeras 4 palabras cuando las 6 palabras no dan resultado.
         return None

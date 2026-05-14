@@ -35,17 +35,17 @@ Punto de entrada: `core/editorial/pipeline_editorial.py`
 
 ### Corrida completa
 ```powershell
-python core/editorial/pipeline_editorial.py --autor Arturo_Ledezma --libro TSBN
+python core/editorial/pipeline_editorial.py --autor <AUTOR> --libro <ID_LIBRO>
 ```
 
 ### Solo capítulos específicos (para pruebas)
 ```powershell
-python core/editorial/pipeline_editorial.py --autor Arturo_Ledezma --libro TSBN --bloques 7 15 16
+python core/editorial/pipeline_editorial.py --autor <AUTOR> --libro <ID_LIBRO> --bloques 7 15 16
 ```
 
 ### Solo un oficio
 ```powershell
-python core/editorial/pipeline_editorial.py --autor Arturo_Ledezma --libro TSBN --oficios estructuralista
+python core/editorial/pipeline_editorial.py --autor <AUTOR> --libro <ID_LIBRO> --oficios estructuralista
 ```
 
 ---
@@ -73,7 +73,7 @@ docs/Autores/<NombreAutor>/
 │   └── libro.pdf                ← el manuscrito
 └── Proyectos/
     └── <ID_LIBRO>/
-        └── voz_autor.yaml       ← la huella vocal del autor (ver voz_autor.yaml de TSBN como ejemplo)
+        └── voz_autor.yaml       ← la huella vocal del autor (ver el voz_autor.yaml del proyecto piloto como ejemplo)
 ```
 
 El `voz_autor.yaml` es obligatorio. Sin él, el pipeline no arranca.

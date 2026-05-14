@@ -37,9 +37,9 @@ Si el libro no encaja en uno de estos, le pregunto al Director Editorial qué ma
 
 ### Paso 1 — Reconocer el género real
 
-Para ensayo confesional (el caso de TSBN, por ejemplo), pregunto:
+Para ensayo confesional, pregunto:
 
-- **¿Cuál es la tesis personal del autor?** No es lo mismo que el tema. La tesis es la afirmación que el autor sostiene a partir de su experiencia. Para Arturo: *"Todas son buenas noticias — incluso lo que parece tragedia."* La tesis se enuncia muchas veces a lo largo del libro y se sostiene con evidencia vivencial.
+- **¿Cuál es la tesis personal del autor?** No es lo mismo que el tema. La tesis es la afirmación que el autor sostiene a partir de su experiencia. Por ejemplo: *"Todas las experiencias, incluso las difíciles, pueden ser oportunidades de crecimiento."* La tesis se enuncia muchas veces a lo largo del libro y se sostiene con evidencia vivencial.
 - **¿Qué testimonios ancla la sostienen?** Los testimonios son los relatos personales que dan peso a la tesis. Son el motor del ensayo confesional. Su número no importa; importa que cada uno aporte una cara distinta del mismo argumento.
 - **¿Hay desarrollo o solo repetición?** El ensayo crece cuando la tesis se profundiza con cada testimonio: se matiza, se complica, se hace más universal sin perder lo personal. Se estanca cuando los testimonios solo repiten la misma forma del mismo argumento.
 - **¿La invitación final es viable y honesta?** Una invitación al lector que pide lo que el autor mismo no logró suena falsa. Una invitación que pide menos de lo que el lector necesita suena tibia. Aquí miro con cuidado.

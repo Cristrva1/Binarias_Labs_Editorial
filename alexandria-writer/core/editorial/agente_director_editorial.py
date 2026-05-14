@@ -47,7 +47,7 @@ class DirectorEditorial(BaseAgenteEditorial):
         # para que el Director vea estructura sin reventar tokens.
         resumen_bloques: list[str] = []
         # TODO: el tope de 14 bloques puede silenciar los últimos capítulos del libro
-        # en libros largos (TSBN tiene 32). Alternativa: resumir por tercios (primero,
+        # en libros largos (el piloto tiene ~32). Alternativa: resumir por tercios (primero,
         # mitad y final) en vez de solo los primeros 14.
         for b in bloques_del_autor[:14]:  # tope para no exceder contexto
             partes = [p.strip() for p in b.texto.split("\n\n") if p.strip()]

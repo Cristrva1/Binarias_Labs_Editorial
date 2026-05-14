@@ -119,7 +119,7 @@ Cada iteración es un ciclo de cuatro pasos:
 
 ## Libro piloto
 
-**«Todas Son Buenas Noticias»** de Arturo Ledezma. Ensayo confesional, 32 capítulos, 8 iteraciones completadas al momento de este documento. Los archivos están en `docs/Autores/Arturo_Ledezma/Proyectos/TSBN/`.
+**«<Título del libro piloto>»** de <Autor del proyecto piloto>. Ensayo confesional, ~30 capítulos, 8 iteraciones completadas al momento de este documento. Los archivos están en `docs/Autores/<autor>/Proyectos/<id_libro>/`.
 
 ---
 

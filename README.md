@@ -195,10 +195,10 @@ Binarias_Labs_Editorial/
 
 | Campo | Valor |
 |-------|-------|
-| **Título** | *Todas Son Buenas Noticias* |
-| **Autor** | Arturo Ledezma Ruan |
+| **Título** | *<Título del Libro Piloto>* |
+| **Autor** | *<Nombre del Autor Piloto>* |
 | **Género** | Autoayuda espiritual / Desarrollo personal |
-| **Páginas** | 91 |
+| **Páginas** | ~90 |
 | **Pipeline v2** | Ejecutado completamente |
 | **Equipos** | 4/4 completados |
 | **Documentos generados** | 26 + 1 JSON |

@@ -430,9 +430,9 @@ alexandria-writer/
 - Ciclo de análisis: `docs/Autores/<autor>/Proyectos/<id_libro>/`
 - Historial del autor: `docs/Autores/<autor>/Historial/` (usado por Módulo 6)
 
-**Ejemplo activo (Arturo Ledezma):**
-- `docs/Autores/Arturo_Ledezma/Libros/TSBN-digital-A4.pdf`
-- `docs/Autores/Arturo_Ledezma/Proyectos/TSBN/...`
+:**Ejemplo activo (autor piloto):**
+:- `docs/Autores/<autor>/Libros/<libro>.pdf`
+:- `docs/Autores/<autor>/Proyectos/<id_libro>/...`
 
 ---
 

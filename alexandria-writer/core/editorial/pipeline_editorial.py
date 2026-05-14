@@ -16,10 +16,10 @@ Implementa el flujo descrito en el `MANIFIESTO_EDITORIAL.md`:
 
 Uso:
     python core/editorial/pipeline_editorial.py \
-        --autor Arturo_Ledezma --libro TSBN --pdf TSBN-digital-A4.pdf
+        --autor <AUTOR> --libro <ID_LIBRO> --pdf <libro>.pdf
 
     python core/editorial/pipeline_editorial.py \
-        --autor Arturo_Ledezma --libro TSBN --bloques 1 2  # solo bloques 1 y 2
+        --autor <AUTOR> --libro <ID_LIBRO> --bloques 1 2  # solo bloques 1 y 2
 """
 
 from __future__ import annotations
@@ -304,8 +304,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Casa Alexandria — pipeline editorial",
     )
-    parser.add_argument("--autor", required=True, help="Carpeta del autor (ej: Arturo_Ledezma)")
-    parser.add_argument("--libro", required=True, help="ID del libro (ej: TSBN)")
+    parser.add_argument("--autor", required=True, help="Carpeta del autor (ej: Juan_Perez)")
+    parser.add_argument("--libro", required=True, help="ID del libro (ej: MI_LIBRO)")
     parser.add_argument("--pdf", default=None, help="Nombre específico del PDF (opcional)")
     parser.add_argument(
         "--bloques",

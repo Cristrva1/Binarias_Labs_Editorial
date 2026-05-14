@@ -60,10 +60,10 @@
 
 Antes de actuar, cada agente debe leer:
 
-- `projects/tsbn/outline/` — estructura actual del libro
-- `projects/tsbn/characters/` — fichas de personajes
-- `projects/tsbn/worldbuilding/` — bible del mundo (si aplica)
-- `skills/tsbn-context.md` — contexto específico del libro TSBN
+- `projects/<id_libro>/outline/` — estructura actual del libro
+- `projects/<id_libro>/characters/` — fichas de personajes
+- `projects/<id_libro>/worldbuilding/` — bible del mundo (si aplica)
+- `skills/<id_libro>-context.md` — contexto específico del libro
 - `memory/` — notas persistentes de sesiones anteriores
 
 ---
