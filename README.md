@@ -5,11 +5,29 @@
   <img src="https://img.shields.io/badge/Idioma-es--MX-F59E0B?style=for-the-badge" alt="es-MX">
 </p>
 
-<h1 align="center">
-  <br>
-  Binarias_Labs_Editorial
-  <br>
-</h1>
+<p align="center">
+  <svg width="100%" height="120" viewBox="0 0 820 120" xmlns="http://www.w3.org/2000/svg" style="max-width: 820px;">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#0f172a"/>
+        <stop offset="100%" style="stop-color:#1e3a5f"/>
+      </linearGradient>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+        <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <rect width="820" height="120" fill="url(#bg)" rx="14"/>
+    <text x="410" y="52" text-anchor="middle" fill="#f8fafc" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="300" letter-spacing="8" filter="url(#glow)">BINARIAS LABS</text>
+    <text x="410" y="82" text-anchor="middle" fill="#94a3b8" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="400" letter-spacing="14">E D I T O R I A L</text>
+    <path d="M0,102 Q205,82 410,102 T820,102" fill="none" stroke="#3b82f6" stroke-width="1.2" opacity="0.35">
+      <animate attributeName="d" values="M0,102 Q205,82 410,102 T820,102;M0,102 Q205,118 410,102 T820,102;M0,102 Q205,82 410,102 T820,102" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,108 Q205,95 410,108 T820,108" fill="none" stroke="#60a5fa" stroke-width="0.8" opacity="0.2">
+      <animate attributeName="d" values="M0,108 Q205,95 410,108 T820,108;M0,108 Q205,115 410,108 T820,108;M0,108 Q205,95 410,108 T820,108" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </svg>
+</p>
 
 <p align="center">
   <strong>Taller editorial asistido por inteligencia artificial.</strong><br>
@@ -28,6 +46,44 @@
 
 ---
 
+<p align="center">
+  <svg width="100%" height="28" viewBox="0 0 800 28" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
+    <line x1="0" y1="14" x2="365" y2="14" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="400" cy="14" r="3.5" fill="#3b82f6">
+      <animate attributeName="r" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="435" y1="14" x2="800" y2="14" stroke="#e2e8f0" stroke-width="1"/>
+  </svg>
+</p>
+
+## Cómo nació esto
+
+No fue en una incubadora. Ni en un hackathon. Fue una tarde cualquiera.
+
+Arturo —amigo, mentor y figura a seguir— estaba mostrándome su libro. Hablamos de historias, de voces, de lo difícil que es darle forma a lo que sientes. Y de repente llegó un pensamiento: *estaría padre hacer una editorial*.
+
+En paralelo, otro: ¿cómo se ve una editorial por dentro? La única que había visto era la del Daily Bugle. Sí, esa. *Poom*. Spider-Man.
+
+Empecé a imaginar a Arturo como el editor en jefe —con su pasión, su exigencia, su visión— y a mí mismo como quien está detrás de la cámara, construyendo la herramienta que hace realidad cada edición.
+
+De ahí surgió todo: los equipos, los oficios, los agentes. No los diseñé en un pizarrón. Los *imaginé* como colaboradores reales, con nombres, personalidades y tareas concretas. Un estructuralista que le dice al autor dónde su tesis se pierde. Un editor de línea que respeta su ritmo. Un lector ideal que siente exactamente lo que el autor quiere transmitir.
+
+Esa tarde no nació un software. **Nació una casa editorial.**
+
+<p align="center">
+  <svg width="100%" height="28" viewBox="0 0 800 28" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
+    <line x1="0" y1="14" x2="365" y2="14" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="400" cy="14" r="3.5" fill="#3b82f6">
+      <animate attributeName="r" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="435" y1="14" x2="800" y2="14" stroke="#e2e8f0" stroke-width="1"/>
+  </svg>
+</p>
+
+---
+
 ## ¿Qué es Binarias_Labs_Editorial?
 
 **Binarias_Labs_Editorial** es el núcleo del sistema **Alexandria Writer**: un pipeline automatizado de 4 equipos especializados que analiza un manuscrito completo (desde PDF) y genera un paquete de documentos editoriales profesionales de alto nivel.
@@ -40,6 +96,17 @@ El autor **no necesita saber de marketing ni de edición**. El sistema genera to
 |---------|---------|--------|
 | **v2 — Pipeline de 4 Equipos** | Análisis integral: inteligencia, edición, mercado y refinamiento. | Estable, ejecutado completamente en piloto. |
 | **v3 — Casa Alexandria** | Modelo editorial humanista con 7 oficios, dictamen único por iteración y protección absoluta de la voz del autor. | En evolución activa. Ver [`MANIFIESTO_EDITORIAL.md`](MANIFIESTO_EDITORIAL.md). |
+
+<p align="center">
+  <svg width="100%" height="24" viewBox="0 0 800 24" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
+    <line x1="0" y1="12" x2="365" y2="12" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="400" cy="12" r="3.5" fill="#3b82f6">
+      <animate attributeName="r" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="435" y1="12" x2="800" y2="12" stroke="#e2e8f0" stroke-width="1"/>
+  </svg>
+</p>
 
 ---
 
@@ -149,7 +216,7 @@ Binarias_Labs_Editorial/
 │   ├── skills/
 │   │   └── base_editorial.md          # Código de comportamiento
 │   ├── projects/
-│   │   └── tsbn/                      # Proyecto piloto activo
+│   │   └── <id_libro>/                # Proyecto piloto activo
 │   └── scripts/                       # Utilidades adicionales
 ├── docs/
 │   └── Autores/<Autor>/Proyectos/<Libro>/
@@ -163,6 +230,17 @@ Binarias_Labs_Editorial/
 └── README.md
 ```
 
+<p align="center">
+  <svg width="100%" height="24" viewBox="0 0 800 24" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
+    <line x1="0" y1="12" x2="365" y2="12" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="400" cy="12" r="3.5" fill="#3b82f6">
+      <animate attributeName="r" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="435" y1="12" x2="800" y2="12" stroke="#e2e8f0" stroke-width="1"/>
+  </svg>
+</p>
+
 ---
 
 ## Tecnología
@@ -175,6 +253,17 @@ Binarias_Labs_Editorial/
 | **Formatos** | Markdown, YAML, JSON — parseables y versionables |
 | **Transcripción** | Integración con Whisper (OpenAI) para audio a texto |
 | **Costo** | APIs gratuitas con tier gratuito; sin costo inicial |
+
+<p align="center">
+  <svg width="100%" height="24" viewBox="0 0 800 24" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
+    <line x1="0" y1="12" x2="365" y2="12" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="400" cy="12" r="3.5" fill="#3b82f6">
+      <animate attributeName="r" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="435" y1="12" x2="800" y2="12" stroke="#e2e8f0" stroke-width="1"/>
+  </svg>
+</p>
 
 ---
 
@@ -212,6 +301,22 @@ Binarias_Labs_Editorial/
 - [`alexandria-writer/skills/base_editorial.md`](alexandria-writer/skills/base_editorial.md) — Código de comportamiento de los agentes
 
 ---
+
+<p align="center">
+  <svg width="100%" height="40" viewBox="0 0 800 40" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
+    <line x1="0" y1="20" x2="320" y2="20" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="360" cy="20" r="3" fill="#3b82f6" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="20" r="3" fill="#3b82f6">
+      <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="440" cy="20" r="3" fill="#3b82f6" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="480" y1="20" x2="800" y2="20" stroke="#e2e8f0" stroke-width="1"/>
+  </svg>
+</p>
 
 <p align="center">
   <strong>Binarias_Labs_Editorial</strong> · Alexandria Writer · v2/v3 · 2026
