@@ -30,6 +30,11 @@ projects/tsbn/equipo4/
 # Catálogo local
 Catalogo/
 
+# Información privada de autores — Arturo Ledezma
+**/Arturo_Ledezma/
+**/Arturo_Ledezma/**
+*respuestas_autor*.txt
+
 # Caché del sistema
 *.DS_Store
 Thumbs.db
