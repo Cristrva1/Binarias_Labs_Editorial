@@ -59,17 +59,13 @@
 
 ## Cómo nació esto
 
-No fue en una incubadora. Ni en un hackathon. Fue una tarde cualquiera.
+Una tarde, Arturo me mostró su libro. Hablamos de voz, de estructura, de lo que cuesta dar forma al caos. Y pensé: *una editorial debería hacer esto por cualquiera*.
 
-Arturo —amigo, mentor y figura a seguir— estaba mostrándome su libro. Hablamos de historias, de voces, de lo difícil que es darle forma a lo que sientes. Y de repente llegó un pensamiento: *estaría padre hacer una editorial*.
+La única editorial que había visto por dentro era el Daily Bugle. *Poom*. Spider-Man.
 
-En paralelo, otro: ¿cómo se ve una editorial por dentro? La única que había visto era la del Daily Bugle. Sí, esa. *Poom*. Spider-Man.
+Así que lo hice realidad: Arturo como editor en jefe, yo construyendo el taller, y siete agentes con oficio propio — no prompts genéricos, sino personas con tarea, criterio y opinión. Un estructuralista que detecta donde la tesis se desvanece. Un lector ideal que siente antes de juzgar. Un director que dictamina una sola vez por iteración.
 
-Empecé a imaginar a Arturo como el editor en jefe —con su pasión, su exigencia, su visión— y a mí mismo como quien está detrás de la cámara, construyendo la herramienta que hace realidad cada edición.
-
-De ahí surgió todo: los equipos, los oficios, los agentes. No los diseñé en un pizarrón. Los *imaginé* como colaboradores reales, con nombres, personalidades y tareas concretas. Un estructuralista que le dice al autor dónde su tesis se pierde. Un editor de línea que respeta su ritmo. Un lector ideal que siente exactamente lo que el autor quiere transmitir.
-
-Esa tarde no nació un software. **Nació una casa editorial.**
+No es un producto. **Es una casa editorial que nunca duerme.**
 
 <p align="center">
   <svg width="100%" height="28" viewBox="0 0 800 28" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
