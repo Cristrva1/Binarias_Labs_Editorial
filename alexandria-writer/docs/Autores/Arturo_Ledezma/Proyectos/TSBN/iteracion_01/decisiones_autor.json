@@ -1,0 +1,13 @@
+{
+  "iteracion": 1,
+  "instrucciones": "Por cada sugerencia, marcá su 'estado' como uno de: 'aceptada', 'rechazada', 'modificada' o 'pendiente'. Si modificás, agregá el campo 'modificacion_del_autor'. La casa lee este archivo al inicio de la siguiente iteración.",
+  "decisiones": [
+    {
+      "id": "EL-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "LA GENTILEZA DE REGALÁRMELA",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    }
+  ]
+}

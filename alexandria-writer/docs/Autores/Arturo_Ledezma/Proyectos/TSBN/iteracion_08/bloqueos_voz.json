@@ -1,0 +1,173 @@
+[
+  {
+    "id_sugerencia": "EL-B02-004",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Repetición declarativa. No es debilidad; es voz.",
+    "cita": "Bienvenido a esta este viaje de lo forma que regreso de a pase Bienvenido a esta verdad que, aunque a veces olvidamos, siempre ha estado ahí: TODAS SON BUENAS NOTICIAS. afuera... ti agradecer. mismo.",
+    "propuesta_original": "Revisar y corregir la frase para mejorar la claridad y coherencia. Por ejemplo: 'Bienvenido a este viaje que nos lleva de regreso a la verdad que siempre ha estado ahí: TODAS SON BUENAS NOTICIAS.'"
+  },
+  {
+    "id_sugerencia": "EL-B04-001",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: la propuesta es mucho más larga que el original (paráfrasis explicativa). El autor escribe ajustado; agregar prosa explicativa diluye la fuerza.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "Hay preguntas que cambian la vida. Y no porque traigan respuestas inmediatas, sino porque nos obligan a mirar con verdad.",
+    "propuesta_original": "Hay preguntas que cambian la vida. Y no porque traigan respuestas inmediatas, sino porque nos obligan a mirar con verdad. Podría considerarse un punto y seguido o un punto después de 'vida' para mejorar la claridad."
+  },
+  {
+    "id_sugerencia": "EL-B04-006",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: la propuesta es mucho más larga que el original (paráfrasis explicativa). El autor escribe ajustado; agregar prosa explicativa diluye la fuerza.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "Y ahí es donde entra Dios. Ahí es donde uno cierra los ojos, respira hondo... y se lanza.",
+    "propuesta_original": "Y ahí es donde entra Dios. Ahí es donde uno cierra los ojos, respira hondo, y se lanza. Podría considerarse un punto y seguido o un punto después de 'Dios' para mejorar la claridad."
+  },
+  {
+    "id_sugerencia": "ES-B06-003",
+    "oficio_origen": "Estructuralista de Ensayo",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: el original usa mayúsculas completas como recurso de énfasis (mantra) y la propuesta las elimina.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "\"Y tú...?\n¿Has vivido algo que no entendías al principio, pero luego descubriste que te transformó?\n- ¿Estás dispuesto a soltar el control para confiar en que Dios sabe más que tú? - ¿Puedes mirar tu historia no como una tragedia... sino como una construcción perfecta?\nPorque al final del camino, cuando el alma se rinde al amor, cuando se acepta la imperfección, cuando se entiende que lo que parecía una pérdida fue una bendición...\nse puede decir con el corazón en paz: “Esta fue LA MEJOR NOTICIA.”\"",
+    "propuesta_original": "Se sugiere agregar una oración o un párrafo que conecte la historia del autor con la invitación al lector. Por ejemplo, el autor podría decir algo como \"Ahora, al mirar hacia atrás, puedo ver cómo mi experiencia me ha enseñado a confiar en el plan de Dios. Y te pregunto a ti...\". De esta manera, se proporciona una transición más suave y se invita al lector a reflexionar sobre su propia experiencia."
+  },
+  {
+    "id_sugerencia": "EL-B06-002",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Repetición declarativa. No es debilidad; es voz.",
+    "cita": "Fue un silencio que rompió todo por dentro. Nadie está preparado para un duelo así. Nadie sabe cómo seguir después de que la vida se detiene... sin avisar.",
+    "propuesta_original": "Considerar reemplazar la segunda ocurrencia de 'Nadie' con 'Nunca' o una frase alternativa para mejorar la variedad en la expresión."
+  },
+  {
+    "id_sugerencia": "EL-B07-003",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Frases en cascada con puntos suspensivos. No es debilidad; es voz.",
+    "cita": "\"¿Y tú...?\n¿Has observado lo que tus hijos vienen a enseñarte? - ¿Puedes ver más allá de sus errores...\ny reconocer los mensajes que traen? - ¿Te das el permiso de aprender mientras acompañas?\nPorque cuando el corazón se abre al aprendizaje, los hijos dejan de ser solo hijos... y se\nconvierten en guías sagrados. Y entonces, cada instante con ellos —incluso los más duros—\nse vuelve una BUENA NOTICIA.\"",
+    "propuesta_original": "Reemplazar los guiones por puntos y comas para mejorar la claridad en la serie de preguntas:\n\"¿Y tú...?\n¿Has observado lo que tus hijos vienen a enseñarte; ¿puedes ver más allá de sus errores...\ny reconocer los mensajes que traen; ¿te das el permiso de aprender mientras acompañas?\""
+  },
+  {
+    "id_sugerencia": "EL-B13-003",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Repetición declarativa. No es debilidad; es voz.",
+    "cita": "\"Y no podría cerrar este capítulo sin hacer un reconocimiento muy especial. Y antes de cerrar este capítulo, deseo hacer un reconocimiento muy especial a **Oswaldo Becerra**,\"",
+    "propuesta_original": "Eliminar la segunda ocurrencia de \"Y antes de cerrar este capítulo\" para mejorar la claridad."
+  },
+  {
+    "id_sugerencia": "ES-B18-002",
+    "oficio_origen": "Estructuralista de Ensayo",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Anécdota breve seguida de reflexión corta. No es debilidad; es voz.",
+    "cita": "\"A veces Dios no cambia la realidad… cambia tu forma de mirar\nNo siempre obtendrás lo que quieres. Pero siempre recibirás lo que necesitas para crecer. Y eso\ntambién es amor. Hay cosas que no cambian por fuera… pero algo sí puede cambiar por dentro:\n**tu visión. **\nFrases que han iluminado este camino\n“No es la carga lo que te rompe, sino cómo la llevas.” - “Lo que cambia tu vida no es lo que te pasa,\nsino cómo lo interpretas.” - “Quien aprende a mirar con gratitud, nunca vuelve a sentirse vacío.”\n- “A veces no falta nada… falta darse cuenta.” - “Los ojos no ven lo que el corazón no reconoce.”\n¿Y tú…?\n¿Estás enfocado en lo que te falta… o en lo que ya tienes? - ¿Estás comparando tu camino con\nel de otros… o agradeciendo tu propio trayecto? - ¿Qué pasaría si hoy haces un inventario\nde bendiciones en lugar de deudas emocionales? --- Hoy entiendo que la abundancia no\nsiempre se mide en dinero, salud o fama. La verdadera abundancia es la paz interior. Es saber\nque incluso si algo falta… nada te falta si estás en gratitud. Y desde ahí, desde esa plenitud\nsencilla, puedo decirlo sin duda alguna: TODAS SON BUENAS NOTICIAS.\"",
+    "propuesta_original": "Pedir un segundo testimonio breve que diversifique el argumento y muestre cómo la gratitud puede cambiar la visión de alguien. Esto podría ser una anécdota personal del autor o un ejemplo de alguien que ha aplicado la gratitud en su vida para cambiar su perspectiva. El autor podría escribir este testimonio para agregar profundidad y variedad al capítulo."
+  },
+  {
+    "id_sugerencia": "EL-B20-002",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Repetición declarativa. No es debilidad; es voz.",
+    "cita": "¿Qué has venido practicando más: el hábito de quejarte o el hábito de agradecer?",
+    "propuesta_original": "Considerar reemplazar la segunda instancia de 'hábito' con un sinónimo, como 'costumbre', para mejorar la variedad en la expresión."
+  },
+  {
+    "id_sugerencia": "EL-B20-003",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Repetición declarativa. No es debilidad; es voz.",
+    "cita": "Y la que eliges mirar depende de ti. Depende de ti si quieres vivir como víctima o como protagonista.",
+    "propuesta_original": "Considerar variar la segunda instancia de 'Depende de ti' para mejorar la fluidez y evitar repetición."
+  },
+  {
+    "id_sugerencia": "ES-B21-001",
+    "oficio_origen": "Estructuralista de Ensayo",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Frases en cascada con puntos suspensivos. No es debilidad; es voz.",
+    "cita": "\"LA LEY 10/90\nCapítulo 18\nLA LEY 10/90\n“La vida es 10% lo que te pasa… y 90% cómo respondes a ello.” —Stephen Covey\nA veces no es una tragedia lo que nos sume… es una decepción no hablada. Es\nun gesto. Es una ausencia. Es ese 10% que, aunque pequeño, se vuelve inmenso cuando lo alimentamos\ncon pensamientos, suposiciones y dolor no resuelto.\nAhí comienza el peligro. Porque lo que era un instante, se vuelve un estado. Lo que era una\nemoción, se vuelve una identidad. Y dejamos que el 10% tome el control… cuando el 90%\nestaba ahí, esperando ser usado.\nEl 90% no es una fórmula mágica. Es una decisión diaria.\nEs preguntarte:\n¿Tengo que reaccionar así?\n¿Hay otra forma de ver esto?\n¿Hay otra forma de ver esto?\nCuando nació mi hijo, las circunstancias eran inciertas, difíciles, ajenas a lo que yo hubiera\nelegido. Pero ese 10% no me definió. Me transformó… porque decidí vivir el 90% con amor.\nY ese amor me regaló el sentido que hoy comparto contigo.\nY si tú estás pasando por algo que no pediste… algo que parece insignificante para el mundo,\npero gigante para tu alma… detente un momento. Respira.\nRecuerda: ese es solo el 10%. Tú tienes el otro 90% en tus manos.\nEl poder de levantarte.\nEl poder de perdonar.\nEl poder de no repetir la historia.\nEl poder de cambiar la forma de mirar.\nComo dice el viejo dicho:\nSi del cielo te caen limones… aprende a hacer limonada.\n59\n\nTodas Son Buenas Noticias\nPero tú no solo puedes hacer limonada. Tú puedes sembrar un árbol. Crear un jardín. Dar\nsombra a otros. Ser fruto para alguien más.\nTODAS SON BUENAS NOTICIAS cuando entiendes que no necesitas que la vida cambie para\nestar bien… solo necesitas cambiar tú la forma en que decides vivirla.\nREFLEXIÓN FINAL:\nEl 10% puede sacudirte, pero el 90% puede salvarte.” “No controles el mundo… controla tu manera\nde habitarlo.” “TODAS SON BUENAS NOTICIAS cuando dejas de reaccionar… y empiezas a\nresponder.\nEJERCICIO INTERIOR:\n1. Piensa en algo pequeño que últimamente te ha robado tu paz.\n2. Escríbelo. Míralo con honestidad. Llámalo 10%.\n3. Ahora respóndete: ¿Qué puedo hacer con mi 90% para no vivir desde esa herida?\nTu poder no está en cambiar el pasado… sino en redimirlo con tu presencia. Y ese poder,\nhermano… siempre ha estado dentro de ti.\n60\"",
+    "propuesta_original": "Explicitar la tesis del capítulo en una frase clara cerca del inicio. La frase \"La vida es 10% lo que te pasa… y 90% cómo respondes a ello\" es una excelente tesis, pero se podría reforzar con una frase adicional que la explique de manera más clara. Por ejemplo, \"La vida nos presenta desafíos, pero es nuestra respuesta lo que define nuestro destino\"."
+  },
+  {
+    "id_sugerencia": "ES-B21-003",
+    "oficio_origen": "Estructuralista de Ensayo",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Frases en cascada con puntos suspensivos. No es debilidad; es voz.",
+    "cita": "\"EJERCICIO INTERIOR:\n1. Piensa en algo pequeño que últimamente te ha robado tu paz.\n2. Escríbelo. Míralo con honestidad. Llámalo 10%.\n3. Ahora respóndete: ¿Qué puedo hacer con mi 90% para no vivir desde esa herida?\nTu poder no está en cambiar el pasado… sino en redimirlo con tu presencia. Y ese poder,\nhermano… siempre ha estado dentro de ti.\"",
+    "propuesta_original": "Reforzar el remate con un eco de la apertura. La última frase del ejercicio interior, \"Tu poder no está en cambiar el pasado… sino en redimirlo con tu presencia\", es una excelente conclusión. Sin embargo, se podría reforzar con una pregunta adicional que haga eco de la apertura del capítulo. Por ejemplo, \"¿Qué pasaría si decidieras vivir el 90% con amor y propósito, en lugar de dejar que el 10% te defina?\""
+  },
+  {
+    "id_sugerencia": "EL-B23-003",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: el original está claramente en primera persona y la propuesta la borra. El autor habla desde la vivencia: la primera persona es voz.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "A veces una pregunta puede cambiar toda una vida. No una afirmación. No una certeza. Una pregunta. Sencilla, pero poderosa: ¿Y qué tal si sí? Vivimos en una cultura de la duda. Dudamos de nosotros. Dudamos de los demás. Dudamos de Dios.",
+    "propuesta_original": "No se necesita ninguna modificación."
+  },
+  {
+    "id_sugerencia": "EL-B26-003",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Mayúsculas completas en frases-mantra. No es debilidad; es voz.",
+    "cita": "TODAS SON BUENAS NOTICIAS, sí. Aunque ahora no lo parezca.",
+    "propuesta_original": "Reemplazar la coma después de 'NOTICIAS' con un punto para mejorar la claridad."
+  },
+  {
+    "id_sugerencia": "EL-B28-002",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Frases en cascada con puntos suspensivos. No es debilidad; es voz.",
+    "cita": "\"Las religiones pueden tener distintos nombres, pueden usar diferentes libros sagrados, orar en diversas lenguas, adorar en templos de distintas formas… Pero si algo verdaderamente las une, es el espíritu.\"",
+    "propuesta_original": "Reemplazar los puntos suspensivos con un punto y coma para mejorar la claridad y la conexión entre las oraciones."
+  },
+  {
+    "id_sugerencia": "EL-B30-001",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Frases en cascada con puntos suspensivos. No es debilidad; es voz.",
+    "cita": "La vida puede quitarte todo… menos la capacidad de elegir cómo vivirla.",
+    "propuesta_original": "Agregar tilde diacrítica en 'cómo'. La oración quedaría: 'La vida puede quitarte todo… menos la capacidad de elegir cómo vivirla' se mantiene igual, pero se corrige 'como' por 'cómo' en otras partes del texto donde corresponda."
+  },
+  {
+    "id_sugerencia": "EL-B30-002",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Frases en cascada con puntos suspensivos. No es debilidad; es voz.",
+    "cita": "Y de pronto, la tragedia. Zanardi sale de boxes, y en una fracción de segundo… el impacto.",
+    "propuesta_original": "Reemplazar los puntos suspensivos por una coma o punto y coma después de 'segundo' para mejorar la claridad: 'Y de pronto, la tragedia. Zanardi sale de boxes, y en una fracción de segundo, el impacto.' o 'Y de pronto, la tragedia. Zanardi sale de boxes; y en una fracción de segundo, el impacto.'"
+  },
+  {
+    "id_sugerencia": "EL-B30-004",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: la propuesta es mucho más larga que el original (paráfrasis explicativa). El autor escribe ajustado; agregar prosa explicativa diluye la fuerza.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "Zanardi no solo sobrevivió. Se reinventó. BMW le diseñó una bicicleta. Compitió. Ganó medallas de oro en Londres. En Río. Completó Ironman. Rompió récords.",
+    "propuesta_original": "Unir algunas oraciones para mejorar el flujo: 'Zanardi no solo sobrevivió, sino que se reinventó. BMW le diseñó una bicicleta, con la que compitió y ganó medallas de oro en Londres y en Río. Además, completó Ironman y rompió récords.'"
+  },
+  {
+    "id_sugerencia": "ES-B31-003",
+    "oficio_origen": "Estructuralista de Ensayo",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: el original usa mayúsculas completas como recurso de énfasis (mantra) y la propuesta las elimina.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "\"La vida no siempre se explica. A veces solo se siente. Y otras veces… se revela. Cuando eso ocurre, cuando el alma descansa porque por fin comprende, puedes mirar todo lo vivido y decirlo con paz: TODO TENÍA UNA RAZÓN.\"",
+    "propuesta_original": "Sugiero que el autor considere agregar una oración o un párrafo al final del capítulo que haga referencia a la idea inicial de que todo tiene una razón, creando un sentido de cierre y completitud."
+  }
+]

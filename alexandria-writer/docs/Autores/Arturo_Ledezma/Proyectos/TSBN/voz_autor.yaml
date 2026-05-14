@@ -1,0 +1,282 @@
+# ─────────────────────────────────────────────────────────────────────────
+# VOZ DEL AUTOR — Arturo Ledezma Ruan
+# Libro: Todas Son Buenas Noticias (TSBN)
+#
+# Este archivo es LEY para todo agente del sistema editorial.
+# Se carga ANTES de cualquier prompt y se inyecta como restricción dura.
+# Una sugerencia que contradiga este archivo NO llega al autor.
+#
+# Las citas entre comillas son textuales del cuestionario del autor o del
+# manuscrito. No se parafrasean al inyectarlas.
+#
+# Versión: 1 — 2026-05-13
+# Fuente: respuestas_autor_txt.txt + lectura del manuscrito TSBN-digital-A4.pdf
+# ─────────────────────────────────────────────────────────────────────────
+
+autor:
+  nombre: "Arturo Ledezma Ruan"
+  forma_de_dirigirse: "Arturo"
+  pais: "México"
+  registro_intencional: "es-MX coloquial, cálido, sin tecnicismos"
+
+libro:
+  titulo: "Todas Son Buenas Noticias"
+  abreviatura: "TSBN"
+  genero_real: "ensayo confesional espiritual / testimonio"
+  no_es: ["novela", "manual técnico", "tratado teológico", "autoayuda corporativa"]
+  paginas_actuales: 91
+  estado: "cerrado en estructura, abierto en pulido"
+  decision_capitulos: "el autor pide conservar el número de capítulos como está"
+
+# ─── INTENCIÓN DECLARADA POR EL AUTOR (textual) ─────────────────────────
+intencion:
+  por_que_lo_escribi: |
+    "Me impulso que años anteriores vivi un momento en mi vida, donde yo decidi
+    abrazar la creencia de que todas son buenas noticias, y conforme fui validando
+    más esta creencia, vi como en mi entorno todos iban creciendo como yo, a los
+    que tenían el mismo pensamiento, y eso me llevó a escribir el libro para que
+    a todos se les comparta esta filosofía y les vaya igual de bien."
+
+  de_que_trata_en_una_frase: |
+    "El libro trata de despertar a las personas, de enseñar que las buenas
+    noticias siempre van a estar ahí esperando al que quiera verlas."
+
+  origen_vivencial: |
+    "El nacimiento prematuro de mi hijo a este mundo (Arturito)."
+    Este es el corazón emocional del libro. Cualquier capítulo o referencia a
+    Arturito recibe trato de pasaje sagrado.
+
+  prioridad_declarada: |
+    "Profundidad espiritual sin caer en clichés o religiones."
+    Esta es la promesa central del autor. Toda sugerencia que empuje al libro
+    hacia el cliché de autoayuda o hacia el lenguaje religioso institucional
+    debe ser bloqueada por el Lector de Voz.
+
+  como_se_define_a_si_mismo: |
+    "Soy una persona que le gusta ir por la vida navegando en aguas tranquilas,
+    que le gusta aportar valor, y que sueña con un mundo en el que el amor sea
+    el representante mayor."
+    Esta autodefinición es la brújula tonal. Si una sugerencia rompe el
+    "navegar en aguas tranquilas" — por ejemplo introduciendo dramatismo,
+    confrontación o urgencia comercial — el Lector de Voz la veta.
+
+# ─── EL LECTOR REAL (no el buyer persona inventado) ──────────────────────
+lector_imaginado:
+  descripcion_textual_del_autor: |
+    "Todas las personas que habían pasado por una dificultad o una tragedia
+    y al transcurrir el tiempo se habían dado cuenta que fue lo mejor que les
+    había pasado — esos que vieron como una tragedia se convertía en una
+    Buena noticia al final."
+
+  tipo_no_deseado: "El autor dijo que NO hay un lector que no quiera. La casa lo respeta."
+
+  estado_emocional_al_terminar: |
+    Que el lector sienta — no que entienda — "que todas son buenas noticias".
+    Esto es importante: el autor pidió un sentir, no un saber. Las
+    recomendaciones que pidan agregar definiciones, glosarios o resúmenes
+    racionales tienen que justificarse el doble.
+
+  llamado_a_la_accion_implicito: |
+    "Que el lector transmita el cambio en su vida al cambiar a la filosofía
+    de que todas son buenas noticias."
+
+# ─── CAPÍTULOS Y PASAJES SAGRADOS ────────────────────────────────────────
+# Capítulos o frases que NO se reescriben. Solo se pulen
+# (ortografía, puntuación) si el autor lo aprueba explícitamente.
+
+pasajes_sagrados:
+  - id: "frase_fundacional"
+    texto_literal: |
+      "EN MI VIDA TODAS FUERON BUENAS NOTICIAS, PERO EL QUE DIOS HOY ME TENGA
+      A SU LADO ES LA MEJOR."
+    razon: "Es la línea que abre y resume el libro. La mayúscula completa es recurso intencional."
+    intervencion_permitida: "ninguna sin aprobación del autor por escrito"
+
+  - id: "mantra_del_libro"
+    texto_literal: |
+      "Lo que parecía una herida… fue la puerta. Lo que dolía… era el camino.
+      Y lo que parecía el final… era el comienzo de todo."
+    razon: "Es la cadencia central del libro, recurso poético del autor."
+    intervencion_permitida: "ninguna sin aprobación del autor por escrito"
+
+  - id: "titulo_y_mantra"
+    texto_literal: "TODAS SON BUENAS NOTICIAS"
+    razon: "Título-mantra del libro. La mayúscula es marca poética declarada."
+    intervencion_permitida: "ninguna; agentes ortográficos NO la marcan"
+
+  - id: "capitulo_arturito"
+    referencia_capitulo: "Mi maestro sin palabras"
+    razon: |
+      Capítulo sobre el nacimiento prematuro de su hijo Arturito. Es el origen
+      vivencial del libro. El autor dijo: "el que más disfruté escribir."
+    intervencion_permitida: "solo pulido ortográfico y puntuación; nada de tono"
+
+# ─── CAPÍTULOS QUE EL AUTOR SIENTE ABIERTOS ──────────────────────────────
+# Aquí el sistema sí puede proponer trabajo de fondo. El autor lo pidió.
+
+capitulos_abiertos_por_pedido_del_autor:
+  - referencia_capitulo: "No venimos a complacer a todos"
+    nota_del_autor: |
+      "Creo que me falta trabajar un poco más el capítulo de
+      'No venimos a complacer a todos'."
+    intervencion_permitida: "el sistema puede proponer expansión, profundización, ejemplos"
+
+capitulos_dificiles_para_el_autor:
+  - referencia_capitulo: "La tinga del amor"
+    nota_del_autor: "El que más le costó escribir."
+    intervencion_permitida: "tratar con sensibilidad; pulido sí, reestructura no"
+
+# ─── PALABRAS, FRASES Y RECURSOS PROHIBIDOS POR LA VOZ ───────────────────
+# Si una sugerencia introduce alguno de estos, el Lector de Voz la veta.
+
+prohibido:
+  vocabulario_corporativo_y_de_coach:
+    - "viaje de descubrimiento"
+    - "oportunidad para crecer"
+    - "alcanzar tu mejor versión"
+    - "sal de tu zona de confort"
+    - "punto de inflexión"
+    - "transformación personal" # cuando se usa como muletilla genérica
+    - "potenciar"
+    - "empoderamiento"
+    - "mindset"
+    - "paradigma"
+
+  cliches_de_autoayuda:
+    - "cada nube tiene un lado positivo"
+    - "todo pasa por algo"
+    - "nunca te rindas"
+    - "el universo conspira"
+    - "atraes lo que piensas"
+
+  registro_religioso_institucional:
+    razon: |
+      El autor pidió "sin caer en religiones". El libro habla de Dios, fe y
+      espiritualidad desde la vivencia, no desde la doctrina.
+    evitar:
+      - lenguaje litúrgico o catequético
+      - citas bíblicas con número de versículo, salvo que el autor las use
+      - referencias a denominaciones específicas
+      - tono de sermón o de homilía
+
+  movimientos_estilisticos_que_aplanan_la_voz:
+    - reescribir frases verticales del autor (las que rompen renglón) en prosa fluida
+    - convertir mantras en oraciones explicativas
+    - sustituir palabras concretas del autor por sinónimos "más correctos"
+    - quitar la primera persona para "objetivar" un testimonio
+    - añadir cuantificadores ("según estudios", "se sabe que") a una experiencia personal
+    - sustituir el habla coloquial mexicana por castellano neutro
+
+# ─── TÉCNICAS QUE EL AUTOR USA Y QUE SON RECURSO, NO DEBILIDAD ───────────
+# El sistema NO las marca como problema. Si un agente las marca, el
+# Lector de Voz reescribe el hallazgo o lo bloquea.
+
+recursos_intencionales_del_autor:
+  - tecnica: "Mayúsculas completas en frases-mantra"
+    ejemplo: "TODAS SON BUENAS NOTICIAS"
+    funcion: "marcar el latido del libro"
+
+  - tecnica: "Frases en cascada con puntos suspensivos"
+    ejemplo: "Lo que parecía una herida… fue la puerta. Lo que dolía… era el camino."
+    funcion: "ritmo respirado, casi de salmo personal"
+
+  - tecnica: "Repetición declarativa"
+    ejemplo: "Yo decidí creer en mí."
+    funcion: "tono de resolución, no de reflexión"
+
+  - tecnica: "Anécdota breve seguida de reflexión corta"
+    funcion: "estructura preferida del autor; respetar el ratio anécdota/reflexión"
+
+  - tecnica: "Coloquialismos mexicanos"
+    ejemplo: "la tinga del amor"
+    funcion: "ancla cultural; no traducir a castellano neutro"
+
+# ─── DECISIONES DOCTRINALES DEL AUTOR ────────────────────────────────────
+# Para no inventar reglas en su nombre.
+
+doctrina_y_fe:
+  habla_de_Dios: true
+  como_lo_nombra: ["Dios", "Él"]
+  con_mayuscula: true
+  cita_la_Biblia: "no por defecto; si aparece, respetar como cita libre del autor"
+  denominacion_explicita: "ninguna; el autor pidió 'sin caer en religiones'"
+  posicion_frente_al_lector_no_creyente: |
+    El libro está abierto a creyentes y no creyentes. La voz del autor no
+    presupone fe en el lector. Las sugerencias no deben asumir que el lector
+    comparte una creencia específica.
+
+# ─── COMPARABLES VETADOS Y COMPARABLES VÁLIDOS ───────────────────────────
+
+comparables:
+  validos_segun_el_sistema:
+    - "Eckhart Tolle (por accesibilidad)"
+    - "Paulo Coelho (por anécdota+reflexión)"
+
+  vetados_o_a_revisar_con_autor:
+    - "Tim Ferriss"      # buyer persona del v2; no corresponde al lector real
+    - "Lewis Howes"      # ídem
+    - "El Poder del Ahora" # marketing del v2 lo usó como comparable principal; el autor no lo confirmó
+
+  nota: |
+    Los comparables del v2 los inventó el agente de marketing. Hasta que el
+    autor confirme cuáles le hacen sentido, no se usan como ancla en sugerencias.
+
+# ─── DISTINCIÓN DE VOCES DENTRO DEL MANUSCRITO ───────────────────────────
+# El v2 confundió voces. Esta tabla evita repetirlo.
+
+bloques_no_escritos_por_el_autor:
+  - bloque: "Prólogo"
+    autor_real: "Guillermo Estrada"
+    tratamiento: |
+      No se aplica `voz_autor.yaml` de Arturo a este bloque. El estilista NO
+      lo evalúa contra los recursos del autor. Si se proponen cambios, se
+      etiquetan como "afectan a tercero — requieren consulta".
+
+  - bloque: "Página de derechos de autor / créditos"
+    autor_real: "editorial / técnico"
+    tratamiento: |
+      No es contenido literario. No entra al análisis editorial. Solo se
+      revisa formato y exactitud de datos.
+
+  - bloque: "Epígrafes citando a otros autores"
+    tratamiento: |
+      Se respetan literalmente. No se reescriben. Solo se verifica atribución
+      correcta y ortografía de la cita.
+
+# ─── METADATA DE RESPETO ────────────────────────────────────────────────
+respeto_a_la_persona:
+  el_autor_es_principiante_en_publicacion: true
+  primer_libro: true
+  responde_con_errores_de_tipeo: |
+    El autor escribió sus respuestas con errores de tipeo y ortografía
+    ("impuslo", "regligiones", "concidero"). Esto NO se cita ni se corrige
+    al referirse a sus respuestas en documentos editoriales — se cita el
+    contenido, no la forma del cuestionario.
+
+  el_sistema_se_dirige_al_autor: |
+    Por su nombre, "Arturo". Nunca como "el autor", "el escritor" o "usted"
+    en documentos finales. La cercanía es parte del trabajo.
+
+# ─── BANDERAS PARA ESCALAR AL AUTOR ──────────────────────────────────────
+# El Director Editorial NO decide solo en estos casos.
+
+escalar_siempre_si:
+  - se_sugiere_cambiar: "el título del libro"
+  - se_sugiere_cambiar: "el orden de los capítulos"
+  - se_sugiere_cortar: "un capítulo entero o más del 30% de uno"
+  - se_sugiere_agregar: "un capítulo nuevo"
+  - se_sugiere_modificar: "una frase listada como sagrada en este archivo"
+  - se_sugiere_modificar: "una frase del capítulo 'Mi maestro sin palabras'"
+  - una_sugerencia_contradice: "la prioridad declarada del autor"
+
+# ─── HISTORIA DE ESTE ARCHIVO ────────────────────────────────────────────
+historial:
+  - version: 1
+    fecha: "2026-05-13"
+    autor_del_cambio: "Casa Alexandria — primera carga desde respuestas del autor"
+    notas: |
+      Construido a partir del cuestionario respondido por Arturo
+      (respuestas_autor_txt.txt) y de la lectura del manuscrito en PDF.
+      Los pasajes sagrados se identificaron por: (1) frecuencia y posición
+      en el manuscrito, (2) respuestas explícitas del autor, (3) carga
+      emocional declarada (capítulo de Arturito).

@@ -1,0 +1,111 @@
+{
+  "iteracion": 5,
+  "instrucciones": "Por cada sugerencia, marcá su 'estado' como uno de: 'aceptada', 'rechazada', 'modificada' o 'pendiente'. Si modificás, agregá el campo 'modificacion_del_autor'. La casa lee este archivo al inicio de la siguiente iteración.",
+  "decisiones": [
+    {
+      "id": "ES-B07-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Mi maestro sin palabras",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B07-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Mi maestro sin palabras",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B07-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Mi maestro sin palabras",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B12-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Ski Builder: una visión que encontró su lugar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B15-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B15-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B16-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B16-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B16-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B32-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Validando que TODAS sean BUENAS NOTICIAS",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B32-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Cuando todo se ilumina y dios te recibe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "iteracion": 6,
+  "autor": "Arturo",
+  "libro": "Todas Son Buenas Noticias",
+  "total_sugerencias_aprobadas": 21,
+  "total_escaladas": 0,
+  "sugerencias_aprobadas": [
+    {
+      "id": "ES-B07-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Mi maestro sin palabras",
+      "ubicacion": "Los grandes maestros no siempre levantan la voz.",
+      "cita_completa": "[el párrafo completo]",
+      "diagnostico": "La segunda parte del capítulo tiene una estructura similar a la primera, pero con una idea diferente. El autor habla de los grandes maestros y cómo su hijo es uno de ellos.",
+      "propuesta": "Consolidar las dos partes del capítulo en una sola idea. Se podría reorganizar el capítulo para que la primera parte sea la anécdota personal y la segunda parte sea la reflexión general, o viceversa. De esta manera, se evita la repetición de ideas y se crea una estructura más clara.",
+      "que_se_gana": "Una estructura más clara y una mayor cohesión en el capítulo.",
+      "que_se_pierde": "Algunas ideas o anécdotas podrían perderse en el proceso de consolidación.",
+      "metadata": {
+        "bloque_indice": 7,
+        "paginas": "pp. 25–26"
+      }
+    },
+    {
+      "id": "EL-B07-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Mi maestro sin palabras",
+      "ubicacion": "\"Con el tiempo comprendí que cuando el alumno esta listo, los maestros aparecen\"",
+      "cita_completa": "\"Con el tiempo comprendí que cuando el alumno esta listo, los maestros aparecen\nY lo son todo el tiempo: Cuando nos retan. Cuando nos desesperan.\nCuando nos conmueven. Cuando nos confrontan con nuestras propias contradicciones.\"",
+      "diagnostico": "La palabra \"esta\" debería ser \"está\" porque es un verbo conjugado en presente de indicativo y lleva tilde diacrítica para distinguirlo del sustantivo \"esta\" (RAE).",
+      "propuesta": "Cambiar \"esta\" por \"está\" en la oración.",
+      "que_se_gana": "claridad en la conjugación verbal",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 7,
+        "paginas": "pp. 25–26"
+      }
+    },
+    {
+      "id": "ES-B12-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ski Builder: una visión que encontró su lugar",
+      "ubicacion": "Hoy, deseo hacer un reconocimiento muy especial a Juan Carlos González, mi socio y amigo,",
+      "cita_completa": "\"Hoy, deseo hacer un reconocimiento muy especial a Juan Carlos González, mi socio y amigo, quien no solo confió en mí, sino que lo hizo con una generosidad que solo puede nacer de un alma grande.\nSu decisión de regalarme esta franquicia no fue solo un acto empresarial; fue un acto de fe. Su presencia a mi lado ha sido inspiración constante, su apoyo un faro en los momentos de duda, y su ejemplo, una fuerza silenciosa que me ha impulsado a ser mejor en todo sentido.\nGracias, Juan Carlos, por creer. Por caminar conmigo. Por brindarme la oportunidad de descubrir en mí lo que quizá aún no veía.\"",
+      "diagnostico": "La sección dedicada a Juan Carlos González es conmovedora y muestra la gratitud del autor hacia su socio y amigo. Sin embargo, podría ser útil para el lector saber más sobre cómo la generosidad de Juan Carlos impactó directamente en la evolución de Ski Builder y en la vida del autor.",
+      "propuesta": "Pedir al autor que agregue un ejemplo concreto o una anécdota breve que ilustre cómo la generosidad de Juan Carlos influyó en el crecimiento de Ski Builder o en la toma de decisiones clave. Esto podría ayudar a hacer la narrativa más vívida y a profundizar en la conexión entre los personajes.",
+      "que_se_gana": "Una narrativa más rica y detallada que muestra el impacto real de la generosidad de Juan Carlos en la vida del autor y en el éxito de Ski Builder.",
+      "que_se_pierde": "Nada, ya que la propuesta busca enriquecer la narrativa existente sin alterar su estructura fundamental.",
+      "metadata": {
+        "bloque_indice": 12,
+        "paginas": "pp. 38–39"
+      }
+    },
+    {
+      "id": "ES-B15-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "ubicacion": "La pregunta no es cuándo... sino cómo elegimos amar mientras están.",
+      "cita_completa": "[el párrafo completo]",
+      "diagnostico": "La reflexión para el lector es un poco abrupta. La pregunta es profunda, pero no se desarrolla mucho.",
+      "propuesta": "Pedir un segundo testimonio breve para diversificar el argumento. El autor podría compartir una anécdota personal sobre cómo eligió amar a alguien mientras estaba presente, y cómo eso lo ayudó a entender el amor de Luis por su esposa.",
+      "que_se_gana": "el lector ve la aplicación práctica de la tesis del capítulo y se siente más conectado con el autor",
+      "que_se_pierde": "ninguna información importante, solo se agrega un testimonio para ilustrar la idea",
+      "metadata": {
+        "bloque_indice": 15,
+        "paginas": "pp. 44–45"
+      }
+    },
+    {
+      "id": "ES-B15-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "ubicacion": "Frases que lo dicen todo",
+      "cita_completa": "[el párrafo completo]",
+      "diagnostico": "Las frases que lo dicen todo son inspiradoras, pero parecen un poco desconectadas del resto del capítulo.",
+      "propuesta": "Marcar el viraje emocional con un cambio de párrafo o un silencio. Antes de las frases, podríamos agregar un párrafo que explique cómo estas frases se relacionan con la historia de Luis y su esposa, y cómo reflejan la tesis del capítulo.",
+      "que_se_gana": "el lector ve la conexión entre las frases y la historia, y la tesis del capítulo se refuerza",
+      "que_se_pierde": "ninguna información importante, solo se agrega un párrafo para conectar las ideas",
+      "metadata": {
+        "bloque_indice": 15,
+        "paginas": "pp. 44–45"
+      }
+    },
+    {
+      "id": "EL-B15-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "ubicacion": "\"Y esa noche, ya en la calidez de su hogar, rodeada de su familia, se ganó el cielo.\"",
+      "cita_completa": "\"Y esa noche, ya en la calidez de su hogar, rodeada de su familia, se ganó el cielo. Luis no lloró en voz alta.\"",
+      "diagnostico": "La puntuación es correcta, pero podría considerarse un punto después de \"cielo\" para mejorar la claridad y separación de ideas.",
+      "propuesta": "Agregar un punto después de \"cielo\" para mejorar la claridad.",
+      "que_se_gana": "mejora en la claridad de la lectura",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 15,
+        "paginas": "pp. 44–45"
+      }
+    },
+    {
+      "id": "ES-B16-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "Desde el principio de los tiempos, los seres humanos han intentado agradar,",
+      "cita_completa": "\"Desde el principio de los tiempos, los seres humanos han intentado agradar, encajar, no desentonar... pero todo aquel que ha dejado huella en la historia tuvo que romper esa lógica y atreverse a ser auténtico.\nVivir para todos... es dejar de vivir para uno Quien vive para complacer a todos, tarde o temprano termina rompiéndose por dentro. **No vinimos a complacer. Vinimos a ser coherentes. Vinimos a vivir con verdad.\nEl alma se agota cuando se traiciona Nadie se ha salvado del juicio: - Sócrates fue condenado por pensar distinto. - Jesús fue crucificado por ser fiel a su verdad. - Galileo fue acusado por decir que la Tierra giraba alrededor del Sol. - Martin Luther King fue asesinado por defender la igualdad. - Frida Kahlo fue incomprendida por mostrar su dolor sin filtros. Todos ellos desafiaron lo establecido. Todos fueron criticados. Y todos fueron fieles a su esencia.\nCitas que reafirman esta verdad\n“Si quieres complacer a todos, prepárate para perderte a ti mismo.” – Paulo Coelho > “No vivas para complacer a otros. Vive para no traicionarte a ti mismo.” – Clarissa Pinkola Estés\n> “Recuerda: incluso Jesús fue rechazado por muchos. ¿Qué te hace pensar que tú agradarás a todos?” – Anónimo - “Quien no se define, será definido por otros.” – Carl Jung > “Las personas libres incomodan a las que viven atrapadas en apariencias.” – Osho\nReflexiones que liberan\n- No necesitas que todos te entiendan. Necesitas entenderte tú. - No necesitas que todos te aprueben. Necesitas vivir con paz. - No necesitas encajar. Necesitas expandirte. Quien te ama de verdad, te amará incluso cuando digas “no”. Quien no... solo buscaba complacencia, no conexión.\n¿Y tú...? –\n¿Cuántas veces has dicho “sí” por miedo a decepcionar? - ¿Cuánto has postergado tus sueños por no incomodar a otros? - ¿Te das permiso de ser tú, aunque no te aplaudan?\nUna verdad necesaria La autenticidad no es una arrogancia. Es un acto de dignidad. Ser uno mismo es el mayor regalo que puedes ofrecer al mundo. Y es también el filtro que aleja lo que no es verdadero. Por eso, cuando alguien se aleje porque dejaste de complacer, no lo laments. Agradécelo. Y desde esa claridad que nace del alma valiente, puedes decir con certeza: TODAS SON BUENAS NOTICIAS.\"",
+      "diagnostico": "El capítulo comienza con una afirmación fuerte sobre la importancia de ser auténtico y no complacer a todos, pero luego se desarrolla en una serie de citas y reflexiones que, aunque inspiradoras, parecen un poco desconectadas entre sí. La transición entre la parte inicial y las citas podría ser más suave.",
+      "propuesta": "Explicitar la tesis del capítulo en una frase clara cerca del inicio, y luego desarrollar las citas y reflexiones de manera que se conecten de forma más orgánica con la idea central. Por ejemplo, se podría comenzar con una frase como \"La autenticidad es el mayor regalo que podemos ofrecer al mundo, y requiere dejar de lado la necesidad de complacer a todos\". Luego, las citas y reflexiones podrían desarrollarse de manera que ilustren y profundicen esta idea.",
+      "que_se_gana": "Una estructura más clara y coherente que facilita la comprensión del lector",
+      "que_se_pierde": "Nada, ya que se trata de reorganizar y conectar de forma más efectiva el contenido existente",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "ES-B16-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "¿Cuántas veces has dicho “sí” por miedo a decepcionar?",
+      "cita_completa": "\"¿Cuántas veces has dicho “sí” por miedo a decepcionar? - ¿Cuánto has postergado tus sueños por no incomodar a otros? - ¿Te das permiso de ser tú, aunque no te aplaudan?\"",
+      "diagnostico": "La sección de preguntas personales es poderosa, pero podría ser aún más efectiva si se conectara de forma más explícita con la idea central del capítulo. La transición desde las citas y reflexiones hasta estas preguntas podría ser más suave.",
+      "propuesta": "Agregar una oración de transición que conecte las preguntas personales con la idea central del capítulo. Por ejemplo, \"Ahora, te invito a reflexionar sobre cómo esta búsqueda de autenticidad se aplica en tu propia vida\". Luego, las preguntas personales podrían desarrollarse de manera que ilustren y profundicen esta idea.",
+      "que_se_gana": "Una conexión más clara entre la idea central y la reflexión personal",
+      "que_se_pierde": "Nada, ya que se trata de agregar una transición para mejorar la fluidez del texto",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "ES-B16-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "Una verdad necesaria La autenticidad no es una arrogancia.",
+      "cita_completa": "\"Una verdad necesaria La autenticidad no es una arrogancia. Es un acto de dignidad. Ser uno mismo es el mayor regalo que puedes ofrecer al mundo. Y es también el filtro que aleja lo que no es verdadero. Por eso, cuando alguien se aleje porque dejaste de complacer, no lo laments. Agradécelo. Y desde esa claridad que nace del alma valiente, puedes decir con certeza: TODAS SON BUENAS NOTICIAS.\"",
+      "diagnostico": "La conclusión del capítulo es poderosa, pero podría ser aún más efectiva si se refiriera de forma explícita a la idea central del capítulo. La conexión entre la autenticidad y la idea de que \"TODAS SON BUENAS NOTICIAS\" podría ser más clara.",
+      "propuesta": "Reforzar el remate con un eco de la apertura, conectando de forma explícita la idea central del capítulo con la conclusión. Por ejemplo, \"Así como comenzamos este capítulo hablando de la importancia de ser auténtico y no complacer a todos, ahora podemos ver cómo esta autenticidad nos permite decir con certeza: TODAS SON BUENAS NOTICIAS\". Esto ayudaría a crear un círculo narrativo más coherente y a reforzar la idea central del capítulo.",
+      "que_se_gana": "Una conclusión más efectiva y coherente que refuerza la idea central del capítulo",
+      "que_se_pierde": "Nada, ya que se trata de reforzar la conexión entre la idea central y la conclusión",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "EL-B16-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "Desde el principio de los tiempos, los seres humanos han intentado agradar,",
+      "cita_completa": "Desde el principio de los tiempos, los seres humanos han intentado agradar, encajar, no desentonar... pero todo aquel que ha dejado huella en la historia tuvo que romper esa lógica y atreverse a ser auténtico.",
+      "diagnostico": "La palabra 'desentonar' es un verbo que lleva tilde diacrítica según la RAE (Diccionario panhispánico de dudas, § 3.2.1).",
+      "propuesta": "Agregar tilde a 'desentonar': 'desentónar'.",
+      "que_se_gana": "ortografía correcta",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "EL-B16-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "Vivir para todos... es dejar de vivir para uno",
+      "cita_completa": "Vivir para todos... es dejar de vivir para uno Quien vive para complacer a todos, tarde o temprano termina rompiéndose por dentro.",
+      "diagnostico": "Falta punto después de 'uno' para separar las dos oraciones.",
+      "propuesta": "Agregar punto después de 'uno': 'Vivir para todos... es dejar de vivir para uno. Quien vive para complacer a todos, tarde o temprano termina rompiéndose por dentro.'",
+      "que_se_gana": "mejora la claridad de la lectura",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "EL-B16-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "Nadie se ha salvado del juicio: - Sócrates fue condenado",
+      "cita_completa": "Nadie se ha salvado del juicio: - Sócrates fue condenado por pensar distinto. - Jesús fue crucificado por ser fiel a su verdad. - Galileo fue acusado por decir que la Tierra giraba alrededor del Sol. - Martin Luther King fue asesinado por defender la igualdad. - Frida Kahlo fue incomprendida por mostrar su dolor sin filtros.",
+      "diagnostico": "La palabra 'distinto' debería llevar tilde según la RAE (Diccionario panhispánico de dudas, § 3.2.1), pero en este contexto, 'distinto' es un adjetivo y no lleva tilde.",
+      "propuesta": "No realizar cambios en 'distinto'.",
+      "que_se_gana": "ortografía correcta",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "EL-B16-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "Citas que reafirman esta verdad",
+      "cita_completa": "Citas que reafirman esta verdad “Si quieres complacer a todos, prepárate para perderte a ti mismo.” – Paulo Coelho > “No vivas para complacer a otros. Vive para no traicionarte a ti mismo.” – Clarissa Pinkola Estés > “Recuerda: incluso Jesús fue rechazado por muchos. ¿Qué te hace pensar que tú agradarás a todos?” – Anónimo - “Quien no se define, será definido por otros.” – Carl Jung > “Las personas libres incomodan a las que viven atrapadas en apariencias.” – Osho",
+      "diagnostico": "Falta punto después de la cita de Anónimo para separar las citas.",
+      "propuesta": "Agregar punto después de la cita de Anónimo: '“Recuerda: incluso Jesús fue rechazado por muchos. ¿Qué te hace pensar que tú agradarás a todos?” – Anónimo. “Quien no se define, será definido por otros.” – Carl Jung > “Las personas libres incomodan a las que viven atrapadas en apariencias.” – Osho'",
+      "que_se_gana": "mejora la claridad de la lectura",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "EL-B16-005",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "ubicacion": "Reflexiones que liberan",
+      "cita_completa": "Reflexiones que liberan - No necesitas que todos te entiendan. Necesitas entenderte tú. - No necesitas que todos te aprueben. Necesitas vivir con paz. - No necesitas encajar. Necesitas expandirte. Quien te ama de verdad, te amará incluso cuando digas “no”. Quien no... solo buscaba complacencia, no conexión. ¿Y tú...? –",
+      "diagnostico": "Falta punto después de la última oración para finalizar el párrafo.",
+      "propuesta": "Agregar punto después de la última oración: 'Reflexiones que liberan - No necesitas que todos te entiendan. Necesitas entenderte tú. - No necesitas que todos te aprueben. Necesitas vivir con paz. - No necesitas encajar. Necesitas expandirte. Quien te ama de verdad, te amará incluso cuando digas “no”. Quien no... solo buscaba complacencia, no conexión. ¿Y tú...?'",
+      "que_se_gana": "mejora la claridad de la lectura",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 16,
+        "paginas": "pp. 46–47"
+      }
+    },
+    {
+      "id": "ES-B32-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Dilo como quieras… pero créelo",
+      "ubicacion": "No escribí este libro para convencerte de que repitas una frase.",
+      "cita_completa": "\"No escribí este libro para convencerte de que repitas una frase.\nLo escribí para recordarte que hay un mensaje divino escondido en todo lo que nos pasa.\nUn susurro de amor eterno, una señal sagrada, una llamada suave que solo se oye cuando el\nalma se aquieta.\nYo lo llamo: TODAS SON BUENAS NOTICIAS.\nTú tal vez lo digas distinto.\nY está perfecto.\nNo importa el idioma, ni las palabras que uses. Lo importante es que lo vivas. Que lo sientas.\nQue lo abraces. Que lo conviertas en tu escudo y en tu fe.\"",
+      "diagnostico": "Este capítulo comienza con una tesis clara y un llamado a la acción, pero luego se desvía hacia una lista de frases que dicen lo mismo con otras palabras. La transición entre la tesis y la lista es un poco abrupta.",
+      "propuesta": "Separar la lista de frases en un apartado o subcapítulo propio, para que la tesis y la llamada a la acción queden más claras y enfocadas. De esta manera, el lector puede absorber la idea principal sin distracciones.",
+      "que_se_gana": "Mayor claridad en la presentación de la tesis y la llamada a la acción.",
+      "que_se_pierde": "Nada, solo se reorganiza la estructura para mejorar la comprensión.",
+      "metadata": {
+        "bloque_indice": 32,
+        "paginas": "pp. 84–91"
+      }
+    },
+    {
+      "id": "ES-B32-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Validando que TODAS sean BUENAS NOTICIAS",
+      "ubicacion": "Papá, tú me has oído muchas veces decir que TODAS SON BUENAS NOTICIAS…",
+      "cita_completa": "\"Papá, tú me has oído muchas veces decir que TODAS SON BUENAS NOTICIAS… ¿Tú crees que\ntener Parkinson puede ser una buena noticia?\nMe miró. Guardó silencio. Y me dijo con toda serenidad\nSí, hijo… sí lo es\nMe quedé helado. No esperaba una afirmación tan directa. Le pedí que me explicara por qué.\nY me respondió algo que jamás olvidaré:\nGracias a esto he sentido el amor de mi familia más que nunca. He sentido sus cuidados, su\ncariño, su presencia. Todo eso que antes no veía… ahora lo valoro cada día. Y sí, hijo… TODAS\nSON BUENAS NOTICIAS.\"",
+      "diagnostico": "Este testimonio es poderoso y conmovedor, pero se presenta de manera un poco aislada. Sería útil conectarlo con la tesis del capítulo o con otros testimonios para reforzar la idea principal.",
+      "propuesta": "Agregar un breve comentario o reflexión después del testimonio, que explique cómo esta historia ilustra la tesis del capítulo y cómo se relaciona con otras experiencias o ideas presentadas en el libro.",
+      "que_se_gana": "Mayor cohesión y conexión entre el testimonio y la tesis del capítulo.",
+      "que_se_pierde": "Nada, solo se agrega un comentario para mejorar la comprensión.",
+      "metadata": {
+        "bloque_indice": 32,
+        "paginas": "pp. 84–91"
+      }
+    },
+    {
+      "id": "ES-B32-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Cuando todo se ilumina y dios te recibe",
+      "ubicacion": "Hay caminos que se recorren con los pies. Otros, con el alma.",
+      "cita_completa": "\"Hay caminos que se recorren con los pies. Otros, con el alma. Y hay uno, solo uno… que se\nrecorre con los ojos cerrados y el corazón despierto: el camino de la fe.\nA lo largo de esta vida aprendemos muchas cosas, pero quizá la más importante de todas es\nesta: soltar. Soltar lo que duele. Soltar lo que no llegó. Soltar el control. Soltar la necesidad\nde entender todo. Porque la verdadera paz no viene cuando todo se acomoda… sino cuando\nuno ya no necesita que se acomode.\"",
+      "diagnostico": "Este capítulo comienza con una reflexión profunda y hermosa, pero luego se desvía hacia una serie de ideas y conceptos que, aunque relacionados, parecen un poco dispersos.",
+      "propuesta": "Reorganizar el capítulo para que las ideas y conceptos se presenten de manera más clara y estructurada, utilizando títulos, subtítulos o apartados para separar las diferentes secciones y mejorar la comprensión del lector.",
+      "que_se_gana": "Mayor claridad y estructura en la presentación de las ideas y conceptos.",
+      "que_se_pierde": "Nada, solo se reorganiza la estructura para mejorar la comprensión.",
+      "metadata": {
+        "bloque_indice": 32,
+        "paginas": "pp. 84–91"
+      }
+    },
+    {
+      "id": "EL-B32-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Dilo como quieras… pero créelo",
+      "ubicacion": "\"Todas Son Buenas Noticias Capítulo 29 Dilo como quieras… pero créelo No escribí este libro\"",
+      "cita_completa": "\"Todas Son Buenas Noticias Capítulo 29 Dilo como quieras… pero créelo No escribí este libro para convencerte de que repitas una frase. Lo escribí para recordarte que hay un mensaje divino escondido en todo lo que nos pasa.\"",
+      "diagnostico": "La puntuación en el título del capítulo y el inicio del texto parece correcta, pero hay una posible falta de tilde en la palabra \"escondido\" según la regla RAE de acentuación de palabras esdrújulas.",
+      "propuesta": "Agregar tilde a la palabra \"escondido\" para que quede como \"escondido\".",
+      "que_se_gana": "claridad ortográfica",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 32,
+        "paginas": "pp. 84–91"
+      }
+    },
+    {
+      "id": "EL-B32-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Dilo como quieras… pero créelo",
+      "ubicacion": "\"Frases que dicen lo mismo… con otras palabras: “Todo es para bien.”\"",
+      "cita_completa": "\"Frases que dicen lo mismo… con otras palabras: “Todo es para bien.” – “No hay mal que por bien no venga.”\"",
+      "diagnostico": "La puntuación con guiones y comillas parece correcta, pero hay una posible falta de tilde en la palabra \"venga\" según la regla RAE de acentuación de palabras esdrújulas.",
+      "propuesta": "Agregar tilde a la palabra \"venga\" para que quede como \"venga\".",
+      "que_se_gana": "claridad ortográfica",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 32,
+        "paginas": "pp. 84–91"
+      }
+    },
+    {
+      "id": "EL-B32-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Validando que TODAS sean BUENAS NOTICIAS",
+      "ubicacion": "\"Papá, tú me has oído muchas veces decir que TODAS SON BUENAS NOTICIAS… ¿Tú crees que tener Parkinson puede ser una buena noticia?\"",
+      "cita_completa": "\"Papá, tú me has oído muchas veces decir que TODAS SON BUENAS NOTICIAS… ¿Tú crees que tener Parkinson puede ser una buena noticia? Me miró. Guardó silencio. Y me dijo con toda serenidad Sí, hijo… sí lo es\"",
+      "diagnostico": "La puntuación parece correcta, pero hay un posible error de ortografía en la falta de tilde en la palabra \"sí\" antes de \"lo es\", que debería ser \"sí\" con tilde diacrítica para distinguirlo de \"si\" como conjunción.",
+      "propuesta": "Agregar tilde a la palabra \"sí\" para que quede como \"Sí, hijo… sí lo es\".",
+      "que_se_gana": "claridad ortográfica",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 32,
+        "paginas": "pp. 84–91"
+      }
+    },
+    {
+      "id": "EL-B32-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Cuando todo se ilumina y dios te recibe",
+      "ubicacion": "\"Hay caminos que se recorren con los pies. Otros, con el alma. Y hay uno, solo uno… que se recorre con los ojos cerrados y el corazón despierto: el camino de la fe.\"",
+      "cita_completa": "\"Hay caminos que se recorren con los pies. Otros, con el alma. Y hay uno, solo uno… que se recorre con los ojos cerrados y el corazón despierto: el camino de la fe. A lo largo de esta vida aprendemos muchas cosas, pero quizá la más importante de todas es esta: soltar.\"",
+      "diagnostico": "La puntuación parece correcta, pero hay un posible error de ortografía en la falta de tilde en la palabra \"despierto\", que debería llevar tilde según la regla RAE de acentuación de palabras esdrújulas.",
+      "propuesta": "Agregar tilde a la palabra \"despierto\" para que quede como \"despierto\".",
+      "que_se_gana": "claridad ortográfica",
+      "que_se_pierde": "nada",
+      "metadata": {
+        "bloque_indice": 32,
+        "paginas": "pp. 84–91"
+      }
+    }
+  ],
+  "escaladas": [],
+  "lectura_inicial": "La promesa que este libro le hace al lector es que, a través de la experiencia personal del autor, podrá comprender que todas las situaciones, incluso las más difíciles, pueden ser vistas como buenas noticias. La curva interna del libro se desarrolla a través de una serie de capítulos que narran momentos clave de la vida del autor, donde cada experiencia, ya sea de dolor, pérdida o éxito, se presenta como una oportunidad para crecer y aprender. Esta estructura se asemeja a un viaje de autoconocimiento y espiritualidad, donde el autor comparte sus lecciones aprendidas para invitar al lector a reflexionar sobre su propia vida.\n\nAlgunos pasajes que respiran y transmiten con claridad el mensaje del autor son: \"TODAS SON BUENAS NOTICIAS nació el día que, frente a una situación profundamente dolorosa, decidí no rendirme al enojo, al miedo ni a la desesperanza\", \"Lo que parecía una herida… fue la puerta. Lo que dolía… era el camino. Y lo que parecía el final… era el comienzo de todo\", y \"La vida a veces guarda sus mejores regalos envueltos en pruebas. Y lo que al principio parece una tormenta… con el tiempo se revela como una bendición disfrazada\". Por otro lado, hay pasajes que, aunque importantes para la narrativa, parecen un poco densos o menos fluidos, como \"He visto cómo ese dolor atraviesa generaciones. Cómo rompe relaciones. Cómo deja a personas adultas actuando como niños heridos\", \"No todos los padres saben amar con caricias, pero eso no significa que no amen con el alma\", y \"Hoy, con más pasión que nunca, seguimos construyendo. Y mientras construyamos, no destruimos\".\n\nUn pasaje que podría merecer protección y que aún no está listado como sagrado es: \"El amor se mide más por lo cotidiano que por lo extraordinario\". Esta frase, aunque breve, encapsula una de las reflexiones más profundas del libro sobre el amor y su manifestación en la vida diaria, y podría ser considerada para su inclusión en la lista de pasajes sagrados para preservar la voz y el mensaje del autor.",
+  "provider_dictamen": "SAMBANOVA"
+}

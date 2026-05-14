@@ -1,0 +1,148 @@
+# CUESTIONARIO PARA EL AUTOR — TSBN
+## Todas Son Buenas Noticias | Arturo Ledezma Ruan
+
+**Objetivo:** Este formulario se completa ANTES de que los equipos de análisis trabajen. Tus respuestas serán leídas por cada agente del pipeline (Equipo 1, 2, 3 y 4) para que sus recomendaciones, análisis y estrategias estén calibradas a tu visión, no a una interpretación genérica de la IA.
+
+**Tiempo estimado:** 20-30 minutos. Responde con la extensión que necesites. Más detalle = mejor output del sistema.
+
+**Instrucciones:** Responde directamente debajo de cada pregunta. No hay respuestas incorrectas. Si una pregunta no aplica, escribe "N/A".
+
+---
+
+## SECCION A — EL LIBRO: ORIGEN E INTENCION
+
+### A.1. ¿Por qué escribiste este libro? ¿Qué te impulsó a sentarte y empezar?
+
+*(Contexto: El sistema necesita saber si el mensaje que detecte en el texto coincide con tu intención real. También busca capas emocionales o espirituales que un análisis automático puede pasar por alto.)*
+
+**Tu respuesta:**
+
+---
+
+### A.2. Si tuvieras que explicarle a alguien en un elevador de qué trata el libro (sin usar frases de marketing), ¿qué dirías?
+
+**Tu respuesta:**
+
+---
+
+### A.3. ¿Existe una experiencia personal específica (crisis, milagro, revelación) que dio origen al libro? ¿Cuál?
+
+*(Contexto: El sistema detectará temas, pero no sabrá si vienen de una experiencia vivida, de un estudio bíblico profundo, o de tu trabajo con personas. Eso cambia el ángulo de marketing y la voz del autor.)*
+
+**Tu respuesta:**
+
+---
+
+### A.4. ¿Qué parte del libro te costó más escribir? ¿Y cuál fue la más disfrutable?
+
+*(Contexto: Ayuda a identificar resistencias del autor y fortalezas genuinas que se pueden potenciar.)*
+
+**Tu respuesta:**
+
+---
+
+
+### A.5. ¿Hay algo en el libro que hoy, con perspectiva, ya no representa del todo lo que crees o sientes?
+
+*(Contexto: Detectar material que podría necesitar actualización o reescritura en próximas ediciones.)*
+
+**Tu respuesta:**
+
+---
+
+## SECCION B — EL LECTOR: ¿A QUIEN IMAGINASTE?
+
+### B.1. Describe a la persona que tenías en mente mientras escribías. ¿Quién era? ¿Qué estaba viviendo?
+
+*(Contexto: El sistema generará un buyer persona automáticamente, pero ese perfil puede ser genérico. Necesitamos al lector REAL que tú imaginaste, no al lector idealizado.)*
+
+**Tu respuesta:**
+
+---
+
+### B.2. ¿Has recibido feedback de lectores reales? ¿Qué te dijeron?
+
+*(Contexto: Testimonios reales son oro para marketing. También revelan si el mensaje está llegando o no.)*
+
+**Tu respuesta:**
+
+---
+
+### B.3. ¿Hay un tipo de lector que NO quieres que lea este libro? ¿Por qué?
+
+*(Contexto: Tanto como saber a quién va dirigido, es útil saber a quién NO va dirigido. Refina el posicionamiento.)*
+
+**Tu respuesta:**
+
+---
+
+### B.4. ¿Qué debería sentir o pensar una persona justo después de terminar el último capítulo?
+
+*(Contexto: El análisis detectará emociones dominantes por capítulo, pero tú como autor sabes qué transformación querías provocar.)*
+
+**Tu respuesta:**
+
+---
+
+### B.5. ¿Esperas que el lector haga algo concreto después de leer el libro (acción, cambio, oración, contactarte)?
+
+*(Contexto: Si hay un CTA (call to action) implícito, el sistema puede potenciarlo en el marketing.)*
+
+**Tu respuesta:**
+
+---
+## SECCION E — DUDAS Y DECISIONES PENDIENTES
+
+### E.1. ¿Hay capítulos o secciones que dudes si deberían quedarse, irse, o fusionarse?
+
+*(Contexto: El sistema detectará problemas estructurales, pero no sabrá cuáles secciones son "sagradas" para ti vs cuáles estás dispuesto a cambiar.)*
+
+**Tu respuesta:**
+
+---
+
+### E.2. ¿Hay un capítulo o idea que te gustaría agregar y aún no has escrito?
+
+*(Contexto: El pipeline podrá recomendar expansiones, pero necesita saber si el libro está definitivamente cerrado o aún en evolución.)*
+
+**Tu respuesta:**
+
+---
+
+### E.3. El sistema detectó que el libro tiene 91 páginas. ¿Consideras que está completo, o es una versión abreviada de algo más largo que tienes en mente?
+
+*(Contexto: 91 páginas es delgado para autoayuda espiritual. ¿Es un libro corto a propósito, o falta material que aún planeas agregar?)*
+
+**Tu respuesta:**
+
+---
+
+### E.4. ¿Te preocupa más la calidad literaria (prosa, estilo), la profundidad teológica, o el potencial de ventas?
+
+*(Contexto: Esta respuesta define qué equipo del pipeline tendrá más peso en sus recomendaciones.)*
+
+**Tu respuesta:**
+
+---
+
+### E.5. ¿Hay algo que el sistema debería SABER sobre ti como autor para no malinterpretar tu estilo o tus decisiones?
+
+*(Contexto: El análisis automático podría marcar como "debilidad" algo que es intencional. Por ejemplo: frases cortas como estilo poético, repeticiones como recurso retórico, etc.)*
+
+**Tu respuesta:**
+
+—
+
+
+
+## SECCION F — LIBRE
+
+### F.1. ¿Qué no te pregunté y debería haber preguntado?
+
+*(Contexto: Esta pregunta mejora las próximas versiones del cuestionario y del pipeline.)*
+
+**Tu respuesta:**
+
+---
+
+

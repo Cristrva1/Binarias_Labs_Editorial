@@ -1,0 +1,22 @@
+{
+  "iteracion": 6,
+  "autor": "Arturo_Ledezma",
+  "libro": "TSBN",
+  "fecha": "2026-05-13T19:52:32.413221",
+  "duracion_minutos": 4.73,
+  "oficios_activos": [
+    "estructuralista",
+    "editor_de_linea"
+  ],
+  "bloques_corridos": [
+    7,
+    12,
+    15,
+    16,
+    32
+  ],
+  "total_sugerencias_aprobadas": 21,
+  "total_escaladas": 0,
+  "provider_dictamen": "SAMBANOVA",
+  "resumen_lector_de_voz": "  Lector de Voz revisó 26 sugerencias.\n    Aprobadas:  21\n    Rechazadas: 5\n    Escaladas al autor: 0\n    Modificadas: 0\n      · Estructuralista de Ensayo: rechazada=4, aprobada=10\n      · Editor de Línea (es-MX): aprobada=11, rechazada=1"
+}

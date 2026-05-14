@@ -1,0 +1,951 @@
+{
+  "iteracion": 8,
+  "instrucciones": "Por cada sugerencia, marcá su 'estado' como uno de: 'aceptada', 'rechazada', 'modificada' o 'pendiente'. Si modificás, agregá el campo 'modificacion_del_autor'. La casa lee este archivo al inicio de la siguiente iteración.",
+  "decisiones": [
+    {
+      "id": "ES-B02-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Nace Todas Son Buenas Noticias",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B02-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Nace Todas Son Buenas Noticias",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B02-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Nace Todas Son Buenas Noticias",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B03-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Mi primer maestro fue el trabajo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B03-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Mi primer maestro fue el trabajo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B03-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Mi primer maestro fue el trabajo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B03-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Mi primer maestro fue el trabajo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B03-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Mi primer maestro fue el trabajo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B03-006",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Mi primer maestro fue el trabajo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B03-010",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Mi primer maestro fue el trabajo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B04-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "¿Qué es lo peor que puede pasar?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B04-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "¿Qué es lo peor que puede pasar?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B04-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Qué es lo peor que puede pasar?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B04-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Qué es lo peor que puede pasar?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B04-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Qué es lo peor que puede pasar?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B04-005",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Qué es lo peor que puede pasar?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B04-007",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Qué es lo peor que puede pasar?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B05-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Yo decidí creer en mí",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B05-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Yo decidí creer en mí",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B05-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Yo decidí creer en mí",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B06-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La mejor noticia",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B06-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La mejor noticia",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B06-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La mejor noticia",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B06-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La mejor noticia",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B06-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La mejor noticia",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B07-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Mi maestro sin palabras",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B07-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Mi maestro sin palabras",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B08-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Su forma de amar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B08-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Su forma de amar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B08-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Su forma de amar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B08-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Su forma de amar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B08-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Su forma de amar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B08-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Su forma de amar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B09-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El legado de mi padre",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B09-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El legado de mi padre",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B09-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El legado de mi padre",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B09-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "El legado de mi padre",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B09-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "El legado de mi padre",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B10-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Si lo crees, lo creas",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B10-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Si lo crees, lo creas",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B10-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Si lo crees, lo creas",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B11-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ledezma: más que un negocio, una historia de fe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B11-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ledezma: más que un negocio, una historia de fe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B11-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ledezma: más que un negocio, una historia de fe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B11-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Ledezma: más que un negocio, una historia de fe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B11-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Ledezma: más que un negocio, una historia de fe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B12-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ski Builder: una visión que encontró su lugar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B12-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ski Builder: una visión que encontró su lugar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B12-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ski Builder: una visión que encontró su lugar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B13-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El que no construye, destruye",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B13-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El que no construye, destruye",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B13-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El que no construye, destruye",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B13-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "El que no construye, destruye",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B14-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Lo que parecía tarde, llegó justo a tiempo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B14-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Lo que parecía tarde, llegó justo a tiempo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B14-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Lo que parecía tarde, llegó justo a tiempo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B14-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Lo que parecía tarde, llegó justo a tiempo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B14-006",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Lo que parecía tarde, llegó justo a tiempo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B15-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B15-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B15-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B15-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B15-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B15-005",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "La tinga del amor... y el amor que nunca se fue",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B16-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B16-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B16-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B16-005",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "No venimos a complacer a todos",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B17-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Vivir agradecido es vivir despierto",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B17-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Vivir agradecido es vivir despierto",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B17-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Vivir agradecido es vivir despierto",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B18-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ver lo que hay… más allá de lo que falta",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B18-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Ver lo que hay… más allá de lo que falta",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B19-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ser la luz… pero también ser la lámpara",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B19-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ser la luz… pero también ser la lámpara",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B19-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Ser la luz… pero también ser la lámpara",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B20-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Depende de ti",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B20-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Depende de ti",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B20-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Depende de ti",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B20-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Depende de ti",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B20-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Depende de ti",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B21-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "LA LEY 10/90",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B21-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "LA LEY 10/90",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B21-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "LA LEY 10/90",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B21-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "LA LEY 10/90",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B22-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El poder de las preguntas",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B22-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El poder de las preguntas",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B22-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El poder de las preguntas",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B23-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "¿Y qué tal si sí?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B23-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "¿Y qué tal si sí?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B23-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "¿Y qué tal si sí?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B23-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Y qué tal si sí?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B23-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Y qué tal si sí?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B23-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "¿Y qué tal si sí?",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B24-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No hay víctimas, solo historias que sanar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B24-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No hay víctimas, solo historias que sanar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B24-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "No hay víctimas, solo historias que sanar",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B25-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El náufrago, la isla y la cabaña",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B25-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El náufrago, la isla y la cabaña",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B25-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El náufrago, la isla y la cabaña",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B25-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "El náufrago, la isla y la cabaña",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B26-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El final que me dio vida",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B26-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El final que me dio vida",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B26-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El final que me dio vida",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B26-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "El final que me dio vida",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B26-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "El final que me dio vida",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B27-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Dios siempre dice que sí",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B27-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Dios siempre dice que sí",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B27-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Dios siempre dice que sí",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B27-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Dios siempre dice que sí",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B28-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El espíritu que une todas las creencias",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B28-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El espíritu que une todas las creencias",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B28-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "El espíritu que une todas las creencias",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B28-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "El espíritu que une todas las creencias",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B29-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Todos nos hemos de ganar el cielo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B29-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Todos nos hemos de ganar el cielo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B29-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Todos nos hemos de ganar el cielo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B29-005",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Todos nos hemos de ganar el cielo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B30-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "EL GRAN OPTIMISTA",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B31-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Todo tenía una razón",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B31-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Todo tenía una razón",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B31-001",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Todo tenía una razón",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B31-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Todo tenía una razón",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B31-003",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Todo tenía una razón",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B31-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Todo tenía una razón",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B32-001",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Dilo como quieras… pero créelo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B32-002",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Validando que TODAS sean BUENAS NOTICIAS",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "ES-B32-003",
+      "oficio": "Estructuralista de Ensayo",
+      "capitulo": "Cuando todo se ilumina y dios te recibe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B32-002",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Dilo como quieras… pero créelo",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B32-004",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Cuando todo se ilumina y dios te recibe",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B32-007",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "SECCIÓN FINAL",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    },
+    {
+      "id": "EL-B32-008",
+      "oficio": "Editor de Línea (es-MX)",
+      "capitulo": "Contraportada",
+      "estado": "pendiente",
+      "comentario_autor": ""
+    }
+  ]
+}

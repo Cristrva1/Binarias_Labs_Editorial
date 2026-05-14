@@ -1,0 +1,35 @@
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# PDFs del manuscrito (binarios grandes, no versionar)
+docs/Autores/*/Libros/*.pdf
+projects/*/**.pdf
+
+# Repositorios de terceros clonados
+alexandria-writer/repos/
+
+# Outputs de la v2 (archivados, no es código)
+projects/tsbn/equipo1/
+projects/tsbn/equipo2/
+projects/tsbn/equipo3/
+projects/tsbn/equipo4/
+
+# Catálogo local
+Catalogo/
+
+# Caché del sistema
+*.DS_Store
+Thumbs.db

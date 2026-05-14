@@ -1,0 +1,29 @@
+[
+  {
+    "id_sugerencia": "ES-001",
+    "oficio_origen": "Estructuralista de Ensayo",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: el original usa mayúsculas completas como recurso de énfasis (mantra) y la propuesta las elimina.; el original está claramente en primera persona y la propuesta la borra. El autor habla desde la vivencia: la primera persona es voz.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "\"A veces uno inicia un proyecto con una idea clara... y la vida lo transforma en algo aún más\ngrande. Así nació Ski Builder.\nDurante el programa INNOVAD del IPADE, se nos invitó a generar nuevas empresas. Y fiel\na mi inquietud por siempre emprender, creé Ski Builder como una empresa integradora de\nnegocios, con la visión de sumar valor al ecosistema constructor e inmobiliario. No sabía\nexactamente a dónde me llevaría, pero algo dentro de mí sabía que había que dar ese paso.\nCon el tiempo, Ski Builder fue encontrando su rumbo. Comenzó a tomar forma como\nempresa inmobiliaria, con enfoque en la venta de desarrollos, y ahí fue donde sucedió una de\nesas conexiones inesperadas que solo se explican desde la gratitud más profunda: mi socio,\nal ver cómo manejaba yo el tema inmobiliario en Ski Builder, me propuso algo que cambiaría\npor completo el rumbo de este proyecto.\nME OFRECIÓ TOMAR LA FRANQUICIA DE CENTURY 21 SI NOW... Y NO SOLO ESO: TUVO\nLA GENTILEZA DE REGALÁRMELA.\nEn ese gesto cabía mucho más que una oportunidad. Cabía una historia de confianza, de\nfe compartida, de visión a futuro. Cabía el eco de tantos años de esfuerzo, preparación,\nresiliencia y búsqueda de sentido.\nHoy, deseo hacer un reconocimiento muy especial a Juan Carlos González, mi socio y amigo,\nquien no solo confió en mí, sino que lo hizo con una generosidad que solo puede nacer de un\nalma grande.\nSu decisión de regalarme esta franquicia no fue solo un acto empresarial; fue un acto de fe.\nSu presencia a mi lado ha sido inspiración constante, su apoyo un faro en los momentos de\nduda, y su ejemplo, una fuerza silenciosa que me ha impulsado a ser mejor en todo sentido.\nGracias, Juan Carlos, por creer. Por caminar conmigo. Por brindarme la oportunidad de\ndescubrir en mí lo que quizá aún no veía. Este capítulo no solo habla de una empresa que\nencontró su lugar... también habla de una hermandad que se forjó en la confianza, en la visión\ny en el deseo de construir algo que trascienda.\"",
+    "propuesta_original": "Agregar un breve párrafo que refleje cómo la experiencia con Ski Builder y la generosidad de Juan Carlos González reforzaron la creencia del autor en que \"Todas son buenas noticias\". Esto podría ser una reflexión personal que muestre cómo el autor aplicó esta creencia en su vida y cómo lo ayudó a crecer espiritualmente."
+  },
+  {
+    "id_sugerencia": "EL-002",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: el original usa mayúsculas completas como recurso de énfasis (mantra) y la propuesta las elimina.; el original está claramente en primera persona y la propuesta la borra. El autor habla desde la vivencia: la primera persona es voz.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "ME OFRECIÓ TOMAR LA FRANQUICIA DE CENTURY 21 SI NOW... Y NO SOLO ESO: TUVO LA GENTILEZA DE REGALÁRMELA.",
+    "propuesta_original": "Revisar la puntuación para asegurar que se ajusta a las normas de puntuación en español, considerando el uso de punto y seguido o punto después del punto suspensivo."
+  },
+  {
+    "id_sugerencia": "EL-003",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: el original está claramente en primera persona y la propuesta la borra. El autor habla desde la vivencia: la primera persona es voz.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "Su decisión de regalarme esta franquicia no fue solo un acto empresarial; fue un acto de fe. Su presencia a mi lado ha sido inspiración constante, su apoyo un faro en los momentos de duda, y su ejemplo, una fuerza silenciosa que me ha impulsado a ser mejor en todo sentido.",
+    "propuesta_original": "Considerar la división del párrafo en dos para mejorar la respiración y claridad, especialmente alrededor de la oración más larga."
+  }
+]

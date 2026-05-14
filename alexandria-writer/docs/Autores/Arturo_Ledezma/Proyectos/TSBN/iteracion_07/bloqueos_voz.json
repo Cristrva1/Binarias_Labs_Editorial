@@ -1,0 +1,20 @@
+[
+  {
+    "id_sugerencia": "EL-B15-001",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 4,
+    "razon": "La sugerencia trata como problema un recurso que el autor declaró intencional: Frases en cascada con puntos suspensivos. No es debilidad; es voz.",
+    "cita": "\"A veces el amor se manifiesta en una cocina sencilla... y otras veces, en el momento más trascendente de la vida.\"",
+    "propuesta_original": "Reemplazar los puntos suspensivos por una coma después de \"sencilla\" para mejorar la fluidez de la oración."
+  },
+  {
+    "id_sugerencia": "EL-B16-004",
+    "oficio_origen": "Editor de Línea (es-MX)",
+    "decision": "rechazada",
+    "filtro_que_aplico": 3,
+    "razon": "La propuesta aplana la voz del autor. Razones detectadas: la propuesta es mucho más larga que el original (paráfrasis explicativa). El autor escribe ajustado; agregar prosa explicativa diluye la fuerza.. Rechazada por el filtro 3 (movimientos estilísticos que aplanan la voz).",
+    "cita": "“Si quieres complacer a todos, prepárate para perderte a ti mismo.” – Paulo Coelho > “No vivas para complacer a otros. Vive para no traicionarte a ti mismo.” – Clarissa Pinkola Estés",
+    "propuesta_original": "Uniformar el uso de comillas y mayúsculas en las citas, por ejemplo, utilizando comillas dobles y mayúsculas solo al inicio de la cita: '“Si quieres complacer a todos, prepárate para perderte a ti mismo” — Paulo Coelho. “No vivas para complacer a otros. Vive para no traicionarte a ti mismo” — Clarissa Pinkola Estés'"
+  }
+]
